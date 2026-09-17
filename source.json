@@ -15,7 +15,14 @@
     "com.github.lingyan000.fluxdo",
     "com.xycz.simple-live",
     "com.minh-ton.Reynard",
-    "com.kodjodevf.mangayomi"
+    "com.kodjodevf.mangayomi",
+    "com.example.kazumi",
+    "tv.bangumi.czy0729",
+    "com.gopeed.gopeed",
+    "com.beans.app",
+    "opensource.pikapika",
+    "com.suwayomi.tachideskSorayomi",
+    "com.gstory.cinetry"
   ],
   "apps": [
     {
@@ -555,6 +562,15 @@
       "bundleIdentifier": "com.kodjodevf.mangayomi",
       "versions": [
         {
+          "version": "0.9.4",
+          "buildVersion": "122",
+          "date": "2026-09-15",
+          "localizedDescription": "## What's Changed\n* Fix double/int cast crash when syncing settings by @not-akari in https://github.com/kodjodevf/mangayomi/pull/1009\n\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.3...v0.9.4\n\nUpstream release: https://github.com/kodjodevf/mangayomi/releases/tag/v0.9.4",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.4/Mangayomi-v0.9.4-ios.ipa",
+          "size": 114238780,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.3",
           "buildVersion": "121",
           "date": "2026-09-14",
@@ -661,6 +677,188 @@
       "iconURL": "https://raw.githubusercontent.com/kodjodevf/mangayomi/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
       "tintColor": "#4185A9",
       "category": "books",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.example.kazumi",
+      "versions": [
+        {
+          "version": "2.3.3",
+          "buildVersion": "20303",
+          "date": "2026-09-15",
+          "localizedDescription": "> [!NOTE]\r\n> 这是 2.3.2 的热修复版本，更多更新日志参考 2.3.2\n\nUpstream release: https://github.com/Predidit/Kazumi/releases/tag/2.3.3",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.3/Kazumi_ios_2.3.3_no_sign.ipa",
+          "size": 29823335,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "name": "Kazumi",
+      "developerName": "Predidit",
+      "subtitle": "可自定义规则、多番源的番剧观看工具",
+      "localizedDescription": "Kazumi 是一款可自定义规则、支持多番源与多平台的开源番剧采集与观看工具。本条目仅索引原作者 GitHub Releases 中发布的未签名 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+      "tintColor": "#EC4899",
+      "category": "entertainment",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "tv.bangumi.czy0729",
+      "versions": [
+        {
+          "version": "8.39.0",
+          "buildVersion": "1",
+          "date": "2026-08-27",
+          "localizedDescription": "Automated unsigned IPA build for upstream Bangumi tag `8.39.0`.\n\nSource: https://github.com/czy0729/Bangumi/tree/8.39.0\n\nSource archive: https://github.com/czy0729/Bangumi/archive/refs/tags/8.39.0.zip\n\nThe IPA is intentionally unsigned and should be signed by your sideloading tool or a later signing workflow.\n\nBuild run: https://github.com/czy0729/Bangumi/actions/runs/33107489626\n\nUpstream release: https://github.com/czy0729/Bangumi/releases/tag/upstream-8.39.0",
+          "downloadURL": "https://github.com/czy0729/Bangumi/releases/download/upstream-8.39.0/Bangumi-8.39.0-unsigned.ipa",
+          "size": 23457639,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "name": "Bangumi",
+      "developerName": "czy0729",
+      "subtitle": "Bangumi 番组计划第三方客户端",
+      "localizedDescription": "Bangumi 是一款开源的 Bangumi 番组计划第三方客户端。由于最新版本仍在适配 Expo@57，并非每个新 tag 都会发布 IPA，本条目会自动索引最近的 upstream-* 未签名 IPA 构建。",
+      "iconURL": "https://raw.githubusercontent.com/czy0729/Bangumi/master/src/assets/images/foreground.png",
+      "tintColor": "#14B8A6",
+      "category": "entertainment",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.gopeed.gopeed",
+      "versions": [
+        {
+          "version": "1.9.3",
+          "buildVersion": "1",
+          "date": "2026-03-18",
+          "localizedDescription": "<table>\r\n  <tbody>\r\n    <tr>\r\n      <td rowspan=\"4\">🪟 Windows</td>\r\n      <td rowspan=\"2\"><code>EXE</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-amd64.zip\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-arm64.zip\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>Portable</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-amd64-portable.zip\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-windows-arm64-portable.zip\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"3\">🍎 MacOS</td>\r\n      <td rowspan=\"3\"><code>DMG</code></td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-macos.dmg\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-macos-amd64.dmg\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-macos-arm64.dmg\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"6\">🐧 Linux</td>\r\n      <td><code>Flathub</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://flathub.org/apps/com.gopeed.Gopeed\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td><code>SNAP</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://snapcraft.io/gopeed\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>DEB</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-amd64.deb\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-arm64.deb\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>AppImage</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-amd64.AppImage\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-linux-arm64.AppImage\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"4\">🤖 Android</td>\r\n      <td rowspan=\"4\"><code>APK</code></td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android.apk\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>armeabi-v7a</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android-armeabi-v7a.apk\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64-v8a</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android-arm64-v8a.apk\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>x86_64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-android-x86_64.apk\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>📱 iOS</td>\r\n      <td><code>IPA</code></td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.3-ios.ipa\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>🐳 Docker</td>\r\n      <td>-</td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://hub.docker.com/r/liwei2633/gopeed\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\">💾 Qnap</td>\r\n      <td rowspan=\"2\"><code>QPKG</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-v1.9.3-qnap-amd64.qpkg\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-v1.9.3-qnap-arm64.qpkg\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"8\">🌐 Web</td>\r\n      <td rowspan=\"3\"><code>Windows</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.3-windows-amd64.zip\">📥</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n  \n\n…",
+          "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
+          "size": 27488140,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "name": "Gopeed",
+      "developerName": "GopeedLab",
+      "subtitle": "开源高速下载管理工具",
+      "localizedDescription": "Gopeed(Go Download)是一款支持直链、BT、磁力链接等协议的开源跨平台下载器，iOS 版本基于 Flutter 构建。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/GopeedLab/gopeed/main/ui/flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#3B82F6",
+      "category": "utilities",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.beans.app",
+      "versions": [
+        {
+          "version": "1.6.6",
+          "buildVersion": "1",
+          "date": "2026-09-06",
+          "localizedDescription": "本次更新：\n\n- 增加网易云音乐和 QQ 音乐歌单广场搜索功能\n- 优化歌曲封面缓存\n- 优化歌词划动后自动回到当前播放歌词的问题\n- 优化整体流畅性，低系统版本请实测反馈\n- 优化网易云私人漫游；如遇问题可尝试心动模式\n- 简化搜索界面，移除均衡器注释\n- 更换酷狗音乐歌单广场接口\n- 修复 QQ 音乐本身有会员但无法播放的问题\n- 修复 iOS 26 以下系统无法返回的问题\n\nUpstream release: https://github.com/XIaodou0416/Beans-Music/releases/tag/v1.6.6",
+          "downloadURL": "https://github.com/XIaodou0416/Beans-Music/releases/download/v1.6.6/Beans-unsigned.ipa",
+          "size": 8761833,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "name": "Beans Music",
+      "developerName": "XIaodou0416",
+      "subtitle": "开源多平台音乐播放器",
+      "localizedDescription": "Beans Music 是一款基于 SwiftUI 的开源音乐播放器,聚合网易云音乐、QQ 音乐和酷狗音乐,支持歌单、歌词、下载与丰富播放器配置。本条目仅索引原作者 GitHub Releases 中发布的未签名 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/XIaodou0416/Beans-Music/main/Beans/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#EC4899",
+      "category": "music",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "opensource.pikapika",
+      "versions": [
+        {
+          "version": "1.8.21",
+          "buildVersion": "45",
+          "date": "2026-07-20",
+          "localizedDescription": "<!--\r\n[用爱发电](https://github.com/niuhuan/crops/releases/tag/v.0.0.1)\r\n-->\r\n七月中下旬兑换后SUCCESS没有增加时间的话, 可以重新兑换 (服务器迁移后发生故障, 我们深表歉意)。\r\n\r\nThe author will not publish this software’s source code or build artifacts through any channel other than GitHub. This project is provided solely for programming communication and learning purposes. Please comply with all applicable laws and regulations in your jurisdiction. The author assumes no responsibility for any actions or consequences arising from your downloading, using, or distributing the source code or build artifacts of this project; any resulting legal disputes or liabilities shall be borne solely by you.\r\n\r\n作者不会在 GitHub 以外的任何渠道发布本软件的源代码或构建产物。本项目仅用于编程交流与学习之目的。请您遵守所在地适用的法律法规。对于您下载、使用、传播本项目源代码或构建产物所引发的任何行为与后果，作者不承担任何责任；由此产生的任何法律纠纷或责任均由您自行承担。\r\n\r\n作者は、GitHub 以外のいかなる手段でも本ソフトウェアのソースコードまたはビルド成果物を公開しません。本プロジェクトは、プログラミングに関する交流および学習目的のみに提供されます。居住地域で適用される法令を遵守してください。本プロジェクトのソースコードまたはビルド成果物のダウンロード、使用、配布等に起因する一切の行為および結果について、作者は責任を負いません。これにより生じたいかなる法的紛争または責任も、利用者ご自身が負担するものとします。\r\n\r\n작성자는 GitHub 이외의 어떠한 경로로도 본 소프트웨어의 소스 코드 및 빌드 산출물을 배포하지 않습니다. 본 프로젝트는 프로그래밍 교류 및 학습 목적에 한하여 제공됩니다. 거주 지역의 관련 법률 및 규정을 준수하시기 바랍니다. 본 프로젝트의 소스 코드 또는 빌드 산출물을 다운로드, 사용, 배포하는 행위로 인해 발생하는 모든 행위 및 결과에 대해 작성자는 어떠한 책임도 지지 않으며, 이로 인해 발생하는 모든 법적 분쟁 및 책임은 전적으로 사용자 본인에게 있습니다.\r\n\r\nEl autor no publicará el código fuente ni los artefactos de compilación de este software por ningún canal distinto de GitHub. Este proyecto se proporciona únicamente con fines de comunicación y aprendizaje de programación. Cumpla las leyes y normativas aplicables en su jurisdicción. El autor no asume responsabilidad alguna por las acciones o consecuencias derivadas de la descarga, uso o distribución del código fuente o de los artefactos de compilación de este proyecto; cualquier disputa o responsabilidad legal resultante será asumida exclusivamente por usted.\r\n\r\nL’auteur ne publiera pas le code source ni les artefacts de compilation de ce logiciel par un autre canal que GitHub. Ce projet est fourni uniquement à des fins d’échange et d’apprentissage en programmation. Veuillez respecter les lois et réglementations applicables dans votre juridiction. L’auteur décline toute responsabilité quant aux actes ou conséquences résultant du téléchargement, de l’utilisation ou de la diffusion du code source ou des artefacts de compilation de ce projet ; tout litige ou toute responsabilité juridique en découlant sera entièrement à votre charge.\r\n\r\n-----\r\n\r\n77554422=\r\n\r\nPlease enter the above content into the application. / 请输入以上内容进入应用程序 / アプリケーションに入るには、上記の内容を入力してください。 / 애플리케이션에 들어가려면 위 내용을 입력하세요. / Para entrar en la aplicación, introduzca el contenido anterior. / Pour accéder à l’application, veuillez saisir le contenu ci-dessus.\r\n\r\n-----\r\n\r\nSupport & contribute / 支持和发电 / 支援と応援 / 지원 및 후원 / Apoyar y contribuir / Soutenir et contribuer\r\n\r\n- Method 1：[Buy a cup of cappuccino / 买一杯卡布奇诺 / カプチーノを一杯買う / 카푸치노 한 잔 사기 / Comprar una taza de capuchino / Acheter une tasse de cappuccino](https://github.com/niuhuan/crops/releases/tag/v.0.0.1)\r\n- Method 2：PATREON\r\n  - SETP 1:  [Join / 入会 / 入会する / 가입 / Unirse / Adhérer](https://www.patreon.com/checkout/niuhuan?rid=9701586)\r\n  - STEP 2: [Link / 绑定 / 連携 / 연결 / Vincular / Lier](https://6ib4vimleel7ljjuf3o6ovevmi0hsekc.lambda-url.us-west-2.on.aws/gen_login_url?scheme=pikapika)\r\n  - TIPS: (There may be up to a 1-hour delay. If it shows that you haven't contributed, refresh after a while. After that, it will renew automatically.) If the app cannot be opened automatically, please find the entry at the very bottom of the lightning icon section inside the app. If you have any issues, please open an issue in time. / （可能有最多1小时延迟，如果显示没有发电过一会儿要刷一下，之后就是自动续期了）。若无法自动打开APP，请到软件内闪电图标最下方寻找入口。有问题及时提出issue。 / （最大で1時間程度の遅延が発生する場合があります。発電していないと表示される場合は、しばらくしてから更新してください。その後は自動更新になります。）自動的にアプリを開けない場合は、アプリ内の稲妻アイコンの一番下にある入口をご確認ください。問題があれば、早めに Issue を作成してください。 / (최대 1시간 정\n\n…",
+          "downloadURL": "https://github.com/ComicSparks/pikapika/releases/download/v1.8.21/pikapika-v1.8.21-ios_nosign-flutter_3.13.9.ipa",
+          "size": 17906138,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "name": "pikapika",
+      "developerName": "ComicSparks",
+      "subtitle": "多源漫画与图片聚合阅读器",
+      "localizedDescription": "pikapika 是一款支持多源漫画、图片聚合浏览与下载的开源客户端,iOS 端分发未签名 IPA。本条目仅索引原作者 GitHub Releases 中发布的未签名 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/ComicSparks/pikapika/master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#8B5CF6",
+      "category": "books",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
+      "versions": [
+        {
+          "version": "0.6.3",
+          "buildVersion": "1",
+          "date": "2025-02-22",
+          "localizedDescription": "## What's Changed\r\n* fixed port number picker by @DattatreyaReddy in https://github.com/Suwayomi/Tachidesk-Sorayomi/pull/336\r\n\r\n\r\n**Full Changelog**: https://github.com/Suwayomi/Tachidesk-Sorayomi/compare/0.6.2...0.6.3\n\nUpstream release: https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/tag/0.6.3",
+          "downloadURL": "https://github.com/Suwayomi/Tachidesk-Sorayomi/releases/download/0.6.3/tachidesk-sorayomi-0.6.3-ios.ipa",
+          "size": 27963820,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "name": "Tachidesk Sorayomi",
+      "developerName": "Suwayomi",
+      "subtitle": "跨平台漫画与电子书阅读器",
+      "localizedDescription": "Tachidesk-Sorayomi 是 Suwayomi 系列的跨平台漫画与电子书阅读客户端,可对接 Tachidesk 服务器或独立使用。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/Suwayomi/Tachidesk-Sorayomi/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#14B8A6",
+      "category": "books",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.gstory.cinetry",
+      "versions": [
+        {
+          "version": "0.8.3",
+          "buildVersion": "47",
+          "date": "2026-06-26",
+          "localizedDescription": "- 优化页面\r\n- 优化音频服务\r\n- 优化播放器桌面鼠标\r\n- 优化音量调节改为软件音量\r\n- 优化文件列表按名称排序\r\n- 优化飞牛影视驱动\r\n- 优化数据互传\r\n- 新增Http/2开关\r\n- 新增边存边播\r\n- 新增缓存清理\r\n- 新增资源库支持夸克网盘、115网盘\n\nUpstream release: https://github.com/gstory0404/Cinetry/releases/tag/0.8.3",
+          "downloadURL": "https://github.com/gstory0404/Cinetry/releases/download/0.8.3/Cinetry_0.8.3%2B47_ios.ipa",
+          "size": 29102907,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "name": "Cinetry",
+      "developerName": "gstory0404",
+      "subtitle": "影视点播与直播聚合播放器",
+      "localizedDescription": "Cinetry 是一款支持点播、直播与多种资源库的影视聚合播放器,兼容 Navidrome、Emby、飞牛影视等。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/gstory0404/Cinetry/master/cinetry_logo.png",
+      "tintColor": "#F59E0B",
+      "category": "entertainment",
       "screenshots": [],
       "appPermissions": {
         "entitlements": [],
