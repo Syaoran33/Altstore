@@ -580,6 +580,15 @@
       "bundleIdentifier": "com.kodjodevf.mangayomi",
       "versions": [
         {
+          "version": "0.9.7",
+          "buildVersion": "125",
+          "date": "2026-09-22",
+          "localizedDescription": "# What's New\r\n\r\n## Reader\r\n\r\n* **Reliable Resume to Saved Position** :\r\n  * Reopening a chapter in continuous vertical reading now jumps directly and instantly to the page where you left off, even before all images have finished loading.\r\n  * Eliminated the issue where the reader would land on a neighboring page or spinner instead of the correct saved position.\r\n\r\n* **Smoother Zoomed Panning & Inertia** (#1021):\r\n  * Dragging a zoomed page now follows your finger precisely using real movement delta instead of an accumulated offset, making panning far more responsive.\r\n  * Flinging a zoomed page now carries natural momentum with a longer, smoother coast animation.\r\n  * Overscrolling past the edge of a zoomed page automatically transfers the momentum to the page list scroll, allowing seamless continued scrolling without lifting your finger.\r\n\r\n* **Fixed Grey Screen in Double-Page Mode**:\r\n  * Chapter transition pages in vertical double-page reading no longer cause a crash or a blank grey screen when the spread is reached.\r\n\r\n* **Reader Bottom Bar Positioning**:\r\n  * The page slider and quick-action bar now correctly sit above the system gesture area and home indicator on all devices, preventing them from being hidden behind system UI.\r\n\r\n* **Novel Reader Performance**:\r\n  * Page swipes in paged novel mode no longer trigger a full rebuild of the reader tree, making navigation between pages considerably faster.\r\n\r\n---\r\n\r\n## Fixes & Stability\r\n\r\n* Fixed infinite loading spinner when resuming a continuous vertical chapter mid-chapter.\r\n* Corrected the visible range check that was preventing the initial scroll anchor from being applied reliably.\r\n* Page image load events now correctly trigger a re-jump to the saved position if the list had not yet settled on the right page.\r\n\r\n---\r\n\r\n## Contributors\r\n\r\n* @kodjodevf\r\n\r\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.6...v0.9.7\n\nUpstream release: https://github.com/kodjodevf/mangayomi/releases/tag/v0.9.7",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.7/Mangayomi-v0.9.7-ios.ipa",
+          "size": 114301894,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.9.6",
           "buildVersion": "124",
           "date": "2026-09-19",
@@ -722,6 +731,15 @@
     {
       "bundleIdentifier": "com.example.kazumi",
       "versions": [
+        {
+          "version": "2.3.4",
+          "buildVersion": "20304",
+          "date": "2026-09-22",
+          "localizedDescription": "- 重新设计的竖屏模式我的页面 (@Predidit)\r\n- 现在追番页面支持卡片样式与列表样式切换 (@Predidit)\r\n- 改进的弹幕检索流程 (@moonrailgun)\r\n- 修复 android 平台偶发的崩溃问题 (@Predidit)\r\n- 修复 macOS x64 应用界面闪烁的问题 (#2577) (@Predidit)\n\nUpstream release: https://github.com/Predidit/Kazumi/releases/tag/2.3.4",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.4/Kazumi_ios_2.3.4_no_sign.ipa",
+          "size": 29106919,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "2.3.3",
           "buildVersion": "20303",
