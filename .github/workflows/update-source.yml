@@ -3,8 +3,8 @@ name: Update AltStore Source
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions 的 cron 使用 UTC 时间；这里每日检查一次
-    - cron: "0 2 * * *"
+    # GitHub Actions 的 cron 使用 UTC 时间；这里每周一检查一次
+    - cron: "0 2 * * 1"
 
 permissions:
   contents: write

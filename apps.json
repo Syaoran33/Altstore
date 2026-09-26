@@ -193,5 +193,44 @@
     "iconURL": "https://raw.githubusercontent.com/gstory0404/Cinetry/master/cinetry_logo.png",
     "category": "entertainment",
     "tintColor": "#F59E0B"
+  },
+  {
+    "name": "Novella",
+    "github": "celia-sh/Novella",
+    "assetRegex": "^Novella-.*-release\\.ipa$",
+    "includePrereleases": false,
+    "releaseLimit": 30,
+    "developerName": "celia-sh",
+    "subtitle": "轻书架第三方阅读客户端",
+    "description": "Novella 是轻书架的第三方客户端,基于 React Native / Expo 开发。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+    "iconURL": "https://raw.githubusercontent.com/celia-sh/Novella/main/apps/mobile/assets/icon.png",
+    "category": "books",
+    "tintColor": "#4185A9"
+  },
+  {
+    "name": "ReadAware",
+    "github": "ahpxex/read-aware",
+    "assetRegex": "^ReadAware-v.*-ios-arm64\\.ipa$",
+    "includePrereleases": false,
+    "releaseLimit": 30,
+    "developerName": "ahpxex",
+    "subtitle": "可跨书记忆的电子书阅读器",
+    "description": "ReadAware 是一款电子书阅读器,会跨书记住你的阅读情况,并支持插件扩展阅读器与其内置 agent。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+    "iconURL": "https://raw.githubusercontent.com/ahpxex/read-aware/main/apps/desktop/src-tauri/icons/icon.png",
+    "category": "books",
+    "tintColor": "#4185A9"
+  },
+  {
+    "name": "YuriGame",
+    "github": "frelixir/YuriGame",
+    "assetRegex": "^YuriGame_.*_iOS_arm64\\.ipa$",
+    "includePrereleases": false,
+    "releaseLimit": 30,
+    "developerName": "frelixir",
+    "subtitle": "多引擎视觉小说播放器",
+    "description": "YuriGame 是 iOS 原生的多引擎视觉小说播放器,内置 ONScripter 与 Kirikiri/XP3 等引擎插件。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+    "iconURL": "https://raw.githubusercontent.com/frelixir/YuriGame/main/Resources/AppIcon.png",
+    "category": "games",
+    "tintColor": "#4185A9"
   }
 ]

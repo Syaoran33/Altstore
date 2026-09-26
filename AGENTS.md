@@ -10,18 +10,22 @@
 | Simple Live | `June6699/dart_simple_live` | `^ios_no_sign\.ipa$` |
 | Reynard Browser | `minh-ton/reynard-browser` | `^Reynard\.ipa$` |
 | Mangayomi | `kodjodevf/mangayomi` | `^Mangayomi-.*-ios\.ipa$` |
+| Novella | `celia-sh/Novella` | `^Novella-.*-release\.ipa$` |
+| ReadAware | `ahpxex/read-aware` | `^ReadAware-v.*-ios-arm64\.ipa$` |
+| YuriGame | `frelixir/YuriGame` | `^YuriGame_.*_iOS_arm64\.ipa$` |
 
 ## 文件说明
 
 - `source.json`：AltStore 读取的软件源文件。
 - `apps.json`：精选收录的上游 GitHub IPA 项目清单。
 - `scripts/update_altstore_source.py`：自动检查上游 GitHub Releases 并更新 `source.json`。
-- `.github/workflows/update-source.yml`：GitHub Actions 每日定时更新任务。
+- `.github/workflows/update-source.yml`：GitHub Actions 每周定时更新任务。
+- `assets/source-icon.png`：源图标，`source.json` 的 `iconURL` 指向 Pages 上的这个文件。
 - `index.html`：GitHub Pages 首页，包含一键添加到 AltStore 的链接。
 
 ## 更新机制
 
-GitHub Actions 会每日运行一次 `scripts/update_altstore_source.py`：
+GitHub Actions 会每周运行一次 `scripts/update_altstore_source.py`：
 
 1. 读取 `apps.json` 中的上游仓库配置。
 2. 扫描最近若干个 GitHub Releases。

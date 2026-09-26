@@ -1,11 +1,11 @@
 {
-  "name": "FantasyPicks",
-  "identifier": "io.github.kida-mnesia.FantasyPicks",
-  "sourceURL": "https://kida-mnesia.github.io/FantasyPicks/source.json",
+  "name": "Syaoran33's Picks",
+  "identifier": "io.github.syaoran33.Altstore",
+  "sourceURL": "https://syaoran33.github.io/Altstore/source.json",
   "subtitle": "精选 iOS 旁载应用索引源",
-  "description": "FantasyPicks 是一个 AltStore 第三方精选索引源。IPA 下载链接直接指向原作者 GitHub Releases，不重新托管应用文件。",
-  "iconURL": "https://github.com/KIDA-MNESIA.png",
-  "website": "https://kida-mnesia.github.io/FantasyPicks/",
+  "description": "Syaoran33's Picks 是一个 AltStore 第三方精选索引源。IPA 下载链接直接指向原作者 GitHub Releases，不重新托管应用文件。",
+  "iconURL": "https://syaoran33.github.io/Altstore/assets/source-icon.png",
+  "website": "https://syaoran33.github.io/Altstore/",
   "tintColor": "#4185A9",
   "featuredApps": [
     "app.aidoku.Aidoku",
