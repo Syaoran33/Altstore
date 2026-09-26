@@ -22,7 +22,10 @@
     "com.beans.app",
     "opensource.pikapika",
     "com.suwayomi.tachideskSorayomi",
-    "com.gstory.cinetry"
+    "com.gstory.cinetry",
+    "sh.celia.novella",
+    "com.readaware.app",
+    "com.lotus.yurigame"
   ],
   "apps": [
     {
@@ -949,6 +952,84 @@
       "iconURL": "https://raw.githubusercontent.com/gstory0404/Cinetry/master/cinetry_logo.png",
       "tintColor": "#F59E0B",
       "category": "entertainment",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "sh.celia.novella",
+      "versions": [
+        {
+          "version": "2.5.0",
+          "buildVersion": "362",
+          "date": "2026-09-23",
+          "localizedDescription": "<img width=\"800\" alt=\"Banner\" src=\"https://github.com/user-attachments/assets/4deb46d9-8b91-4b8a-a4f4-5d59f9190628\" />\r\n\r\n## **What's Changed 🧐**\r\n\r\n本次更新主要完善了 **书架管理**，并完成了 **组件迁移**。\r\n**仅支持 iOS / iPadOS**。\r\n\r\n### **⚡️ 内容概要**\r\n\r\n* **API**\r\n  跟进新的接口。\r\n  截止发版前 **详情页 / 书架 / 用户摘要** 已经恢复。\r\n  鉴于接口变动频繁，您可以考虑换用网页版。\r\n\r\n* **书架浏览**\r\n  新增 **全部 / 小说 / 漫画** 三种筛选方式。\r\n  文件夹支持递归筛选，子目录存在匹配内容时仍会正确显示。\r\n  进入文件夹后会保留当前筛选类型。\r\n  改进书籍详情跳转和系列信息识别。\r\n\r\n* **用户成长与签到**\r\n  新增距离下一级所需经验展示。\r\n  满级用户现在会显示对应状态。\r\n  签到调整为进入设置页面时尝试，不再需要进行繁琐操作。\r\n  增加签到并发保护，避免重复请求。\r\n  如果支持，签到会以灵动岛形式提示。\r\n\r\n* **界面组件**\r\n  移除 HeroUI Native，迁移至 **PanelUI Native**。\r\n  更新按钮、卡片、标签、输入框、验证码、头像、Skeleton 和编辑器等组件。\r\n  同步调整社区、评论、公告、书籍详情和认证相关页面。\r\n\r\n* **详情页与阅读器**\r\n  改进阅读器图片预览界面。\r\n  分享、保存和关闭操作改用 **Liquid Glass** 按钮。\r\n  修复原生阅读进度条滑块阴影被裁剪的问题。\r\n  改进详情页 BlurHash 颜色采样效果。\r\n\r\n方便的管理更新：[**添加到侧载工具**](https://sideload.celia.sh) ↗️\r\n了解其它项目：[**celia-sh/Hana**](https://github.com/celia-sh/Hana) 🌸\r\n闲聊吹水 / 反馈问题：[**点此加入**](https://t.me/+xNDJEfc_naRlMGEx) ✈️\r\n\r\n> [!CAUTION]\r\n> **本应用与网站没有直接关系**，所以**不要在**社区发布和**本软件**相关的帖子。\r\n> 正确反馈渠道：在仓库开 Issues，或者加入交流群。\r\n> 记得**看完公告和发帖前提示**，以免被网站封禁；如果不看，我只能说：非我封禁，无能为力。\r\n> 请记清楚，这不是官方软件。\n\nUpstream release: https://github.com/celia-sh/Novella/releases/tag/v2.5.0",
+          "downloadURL": "https://github.com/celia-sh/Novella/releases/download/v2.5.0/Novella-2.5.0-release.ipa",
+          "size": 26047504,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "name": "Novella",
+      "developerName": "celia-sh",
+      "subtitle": "轻书架第三方阅读客户端",
+      "localizedDescription": "Novella 是轻书架的第三方客户端,基于 React Native / Expo 开发。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/celia-sh/Novella/main/apps/mobile/assets/icon.png",
+      "tintColor": "#4185A9",
+      "category": "books",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.readaware.app",
+      "versions": [
+        {
+          "version": "0.6.4",
+          "buildVersion": "0.6.4",
+          "date": "2026-09-25",
+          "localizedDescription": "A Cambria patch for reading on a phone: the reader's controls move to the bottom within reach of your thumb, panels swipe away, and books open faster on iPhone.\n\n## New\n\n- **Phone reader controls at the bottom.** On a phone, the reader's actions (contents, notes, reading mode, appearance, chat) sit in a toolbar at the bottom of the screen, as icons. The top bar keeps back, the title with the current chapter and percentage, and More. Arrange the toolbar in Settings → Customize → Reader toolbar (phone), separately from the desktop header.\n- **Appearance and notes open from the bottom bar.** Instead of a card floating over the page, the bar grows upward to hold them; pull it down, tap the page or press back to close it. Appearance leads with text size and page color swatches, with the font list and finer typography one tap away.\n- **Swipe panels away.** The contents and chat panels close with the iOS back swipe from the left edge, or by dragging them out the way they came.\n- **Swipe a note left to delete it** on touch, instead of a trash icon on every row.\n\n## Improved\n\n- **Faster book opening on iPhone.** Large books open markedly faster (a long biography went from about 1.3 s to 0.5 s on an iPhone 14 Pro), and the book chat panel no longer renders its whole history while hidden.\n- **Reader controls appear at once.** A tap on the page brought the controls up only after a quarter-second wait meant for mouse double-clicks; a touch now shows them immediately.\n- **Reading progress on phones** is the hairline along the top bar's edge; drag sideways anywhere across the bar to jump through the book.\n- **Notes are easier to scan.** The notes list uses the app's own type rather than the book's, with each highlight's color as a rule beside the passage.\n\n## Fixed\n\n- **Status bar on iPhone** hides while reading again; release builds could not reach the code that hides it.\n- **Damaged MOBI files** are reported as damaged copies (\"try another copy\") instead of as DRM-protected.\n- **A book that fails to open** now shows its error at once, instead of leaving the shelf frozen over the reader for three seconds first.\n\n**Full Changelog**: https://github.com/ahpxex/read-aware/compare/v0.6.3...v0.6.4\n\n\nUpstream release: https://github.com/ahpxex/read-aware/releases/tag/v0.6.4",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.4/ReadAware-v0.6.4-ios-arm64.ipa",
+          "size": 15724666,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "name": "ReadAware",
+      "developerName": "ahpxex",
+      "subtitle": "可跨书记忆的电子书阅读器",
+      "localizedDescription": "ReadAware 是一款电子书阅读器,会跨书记住你的阅读情况,并支持插件扩展阅读器与其内置 agent。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/ahpxex/read-aware/main/apps/desktop/src-tauri/icons/icon.png",
+      "tintColor": "#4185A9",
+      "category": "books",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.lotus.yurigame",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1.0",
+          "date": "2026-07-06",
+          "localizedDescription": "新增伪造SDK版本功能，并修复iOS26黑屏\n\nUpstream release: https://github.com/frelixir/YuriGame/releases/tag/v1.1",
+          "downloadURL": "https://github.com/frelixir/YuriGame/releases/download/v1.1/YuriGame_1.1_iOS_arm64.ipa",
+          "size": 32325247,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "name": "YuriGame",
+      "developerName": "frelixir",
+      "subtitle": "多引擎视觉小说播放器",
+      "localizedDescription": "YuriGame 是 iOS 原生的多引擎视觉小说播放器,内置 ONScripter 与 Kirikiri/XP3 等引擎插件。本条目仅索引原作者 GitHub Releases 中发布的 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/frelixir/YuriGame/main/Resources/AppIcon.png",
+      "tintColor": "#4185A9",
+      "category": "games",
       "screenshots": [],
       "appPermissions": {
         "entitlements": [],
