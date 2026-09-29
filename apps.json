@@ -232,5 +232,18 @@
     "iconURL": "https://raw.githubusercontent.com/frelixir/YuriGame/main/Resources/AppIcon.png",
     "category": "games",
     "tintColor": "#4185A9"
+  },
+  {
+    "name": "DshMobile",
+    "github": "Clarklevis1995/dsh-mobile",
+    "assetRegex": "^DshMobile-ios-.*-unsigned\\.ipa$",
+    "includePrereleases": false,
+    "releaseLimit": 30,
+    "developerName": "Clarklevis1995",
+    "subtitle": "DeepSeek Harness 原生 iOS 客户端",
+    "description": "DshMobile(DeepSeek Harness Mobile)通过 dsh-plugin-mobile-gateway 与 Harness 建立 WebSocket 连接,把工作区、会话、实时回复和 Agent 执行轨迹带到 iPhone。本条目仅索引原作者 GitHub Releases 中发布的未签名 iOS IPA。",
+    "iconURL": "https://raw.githubusercontent.com/Clarklevis1995/dsh-mobile/main/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png",
+    "category": "developer",
+    "tintColor": "#4D6BFE"
   }
 ]

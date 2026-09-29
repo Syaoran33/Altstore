@@ -13,6 +13,7 @@
 | Novella | `celia-sh/Novella` | `^Novella-.*-release\.ipa$` |
 | ReadAware | `ahpxex/read-aware` | `^ReadAware-v.*-ios-arm64\.ipa$` |
 | YuriGame | `frelixir/YuriGame` | `^YuriGame_.*_iOS_arm64\.ipa$` |
+| DshMobile | `Clarklevis1995/dsh-mobile` | `^DshMobile-ios-.*-unsigned\.ipa$` |
 
 ## 文件说明
 

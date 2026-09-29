@@ -25,7 +25,8 @@
     "com.gstory.cinetry",
     "sh.celia.novella",
     "com.readaware.app",
-    "com.lotus.yurigame"
+    "com.lotus.yurigame",
+    "com.clark.dshmobile"
   ],
   "apps": [
     {
@@ -1039,6 +1040,32 @@
       "iconURL": "https://raw.githubusercontent.com/frelixir/YuriGame/main/Resources/AppIcon.png",
       "tintColor": "#4185A9",
       "category": "games",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.clark.dshmobile",
+      "versions": [
+        {
+          "version": "1.6.2",
+          "buildVersion": "15",
+          "date": "2026-09-27",
+          "localizedDescription": "## 功能更新\r\n\r\n- iOS 与 Android 新增侧边抽屉，提供插件和定时任务入口，并改进暗色模式、滑动效果与页面跳转。\r\n- 新增定时任务列表与详情，可查看执行规则、下次计划时间和最近投递；支持跳转所属会话，以及编辑标题、任务内容、执行时间或删除任务。\r\n- 改进后台 Agent 通知和 iOS 实时活动的状态显示。\r\n- 同步权限选项，优化实时消息与执行轨迹显示，并改进操作失败时的提示。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.8.1` 或更高版本。\r\n- 安装后需要完整重启 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.6.2",
+          "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.6.2/DshMobile-ios-v1.6.2-unsigned.ipa",
+          "size": 6275015,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "name": "DshMobile",
+      "developerName": "Clarklevis1995",
+      "subtitle": "DeepSeek Harness 原生 iOS 客户端",
+      "localizedDescription": "DshMobile(DeepSeek Harness Mobile)通过 dsh-plugin-mobile-gateway 与 Harness 建立 WebSocket 连接,把工作区、会话、实时回复和 Agent 执行轨迹带到 iPhone。本条目仅索引原作者 GitHub Releases 中发布的未签名 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/Clarklevis1995/dsh-mobile/main/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png",
+      "tintColor": "#4D6BFE",
+      "category": "developer",
       "screenshots": [],
       "appPermissions": {
         "entitlements": [],
