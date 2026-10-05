@@ -86,6 +86,15 @@
       "bundleIdentifier": "io.github.haukuen.venera",
       "versions": [
         {
+          "version": "1.16.0",
+          "buildVersion": "210",
+          "date": "2026-10-02",
+          "localizedDescription": "## What's Changed\n* feat: 下载章节弹窗增加全选/反选/取消全选 by @haukuen in https://github.com/haukuen/venera/pull/140\n* Feat: 新增更新页面，优化更新逻辑 by @bgzo in https://github.com/haukuen/venera/pull/142\n* fix: CBZ 分章节导出重名章节互相覆盖 by @haukuen in https://github.com/haukuen/venera/commit/d91349cb2d0dd534cb542d4f93f57ac80361a62b\n* feat: 分章节导出支持选择章节段命名格式 by @haukuen in https://github.com/haukuen/venera/commit/947fe6932a293eb0098dbbeb7ffa7ebbc3cc1e30\n* feat: 单章导出 CBZ 的 ComicInfo.xml 写入章节标题与序号 by @haukuen in https://github.com/haukuen/venera/commit/5833205ab18186db07315ec6da6d9c9e253013cb\n* test: 同步 sanitizeFileNameWithSuffix 的 middle trim 行为 by @haukuen in https://github.com/haukuen/venera/commit/78a62ecbc9896eee9197c45049273774d9f804b8\n* fix: ComicType.sourceKey 在漫画源缺失时回退为 Unknown 键而非空指针崩溃 by @haukuen in https://github.com/haukuen/venera/commit/289d19a6af807c5bf68ba40281f0cced5edbf83d\n* chore: Android manifest configChanges 增加 navigation by @haukuen in https://github.com/haukuen/venera/commit/06a4b60642d7b3a6624483b68120f6d4c318e679\n* refactor: 统一 Material 3 设计系统 by @haukuen in https://github.com/haukuen/venera/pull/149\n* fix: 修复关闭自动同步后仍发生 WebDAV 传输 by @KIDA-MNESIA in https://github.com/haukuen/venera/pull/145\n\n## New Contributors\n* @KIDA-MNESIA made their first contribution in https://github.com/haukuen/venera/pull/145\n\n**Full Changelog**: https://github.com/haukuen/venera/compare/v1.15.0...v1.16.0\n\n\nUpstream release: https://github.com/haukuen/venera/releases/tag/v1.16.0",
+          "downloadURL": "https://github.com/haukuen/venera/releases/download/v1.16.0/venera-ios-1.16.0%2B210.ipa",
+          "size": 16147396,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.15.0",
           "buildVersion": "209",
           "date": "2026-07-29",
@@ -513,6 +522,15 @@
       "bundleIdentifier": "com.minh-ton.Reynard",
       "versions": [
         {
+          "version": "0.16.0",
+          "buildVersion": "63fb54d",
+          "date": "2026-10-04",
+          "localizedDescription": "## Changes\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.15.0...0.16.0\r\n\r\n### Bug Fixes & Improvements\r\n- Fixed an issue where the iPad floating keyboard pushed the web view upward.\r\n\r\n### Engine\r\nUpdated Gecko to [157.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_RELEASE) (released Sep 29, 2026).\n\nUpstream release: https://github.com/minh-ton/reynard-browser/releases/tag/0.16.0",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard.ipa",
+          "size": 109163229,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "0.15.0",
           "buildVersion": "a3315eb",
           "date": "2026-09-27",
@@ -763,6 +781,15 @@
       "bundleIdentifier": "com.example.kazumi",
       "versions": [
         {
+          "version": "2.3.7",
+          "buildVersion": "20307",
+          "date": "2026-09-30",
+          "localizedDescription": "- 改进的视频截图功能 (#1697 #1144) (@Predidit)\r\n- 新增弹幕简繁转换设置 (#1108 #1923) (@Predidit)\r\n- 番剧详情页面现在支持复制标题与保存封面 (#2575) (@Predidit)\r\n- 现在可以在滑动快进时滑至播放器边缘取消操作 (#2592) (@Predidit)\r\n- 新增 Bangumi 番剧条目 ECH 加速选项 (@Predidit)\r\n- 修复手动检索弹幕时搜索记录无法保留的问题 (@moonrailgun)\r\n- 修复部分视频来源无法触发人机验证的问题 (#2578) (@jzy834894319)\r\n- 修复 Linux 平台打开播放器、切换剧集或播放结束时可能崩溃的问题 (#2587) (@Predidit)\r\n- 修复桌面平台设置子页面窗口控制按钮重复显示的问题 (#2589) (@Predidit)\r\n- 修复切换原生标题栏设置后窗口控制按钮显示异常的问题 (@Predidit)\n\nUpstream release: https://github.com/Predidit/Kazumi/releases/tag/2.3.7",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.7/Kazumi_ios_2.3.7_no_sign.ipa",
+          "size": 30538813,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.3.6",
           "buildVersion": "20306",
           "date": "2026-09-23",
@@ -998,6 +1025,15 @@
       "bundleIdentifier": "com.readaware.app",
       "versions": [
         {
+          "version": "0.6.5",
+          "buildVersion": "0.6.5",
+          "date": "2026-09-29",
+          "localizedDescription": "## New\n\n- **Zoom for PDFs and comics.** Pinch on the trackpad or touch screen, hold the zoom chord on the mouse wheel, or press ⌘= / ⌘− / ⌘0 (Ctrl elsewhere; rebindable in Settings → Shortcuts). The point under your fingers or cursor stays put, and pages zoomed past the window scroll in every direction. Reading appearance lets you choose what 100% means — the page's width or the whole page.\n- **The percentage shows as you zoom**, and while the reader controls are up a zoomed page keeps it on screen with a one-click way back to the fit.\n- **Each book remembers its zoom and your place on the page** on this device, so a zoomed page reopens on the passage you were reading instead of its corner.\n- **Lock a zoomed view for page turns.** In single- and two-page modes, lock the view from the zoom pill or with ⌘L: the wheel, arrow keys and swipes turn pages again, and every page opens on the same part — handy for reading one column of a paper page after page.\n- **Tables of contents rebuilt for books that barely have one.** Sets whose contents list only their volumes, and PDFs without an outline, get a nested contents list recovered from their headings, remembered for the next open. Very long contents lists stay fast.\n\n## Improved\n\n- Zoomed pages stay sharp: past the render budget, the visible part of a PDF page is drawn again at full resolution.\n- In a paged layout, a zoomed page pans before it turns — the wheel, arrow keys and swipes first move across the page, and a new gesture at its edge turns it.\n- Chapters are worked out once for both the reader and the assistant, so chapter summaries of book sets and multi-part books follow the real chapters.\n- Large and slightly damaged Kindle (KF8/AZW3) books open reliably, and jumps inside a big bundle take milliseconds instead of seconds.\n- Covers, code, wide tables and positioned blocks from the publisher stay inside the text column instead of rendering blank or spilling onto the next page.\n- On a cold start the first page appears in your reading font, without flashing the publisher's styles first.\n- Backups use the complete encrypted archive only. An old v1 `.json` backup is recognized and explained instead of being reported as a wrong password.\n\n## Fixed\n\n- EPUB covers named by file path (for example *Refactoring*) now appear on the shelf.\n- A book whose cover never reached this device — with sync off, or after a restore — gets it back from the book file here.\n- Jumping with the progress bar while a chapter change was still animating no longer gets lost.\n- A sync upload over your storage quota no longer removes the copy already stored.\n- Local storage recovers by itself after an internal error instead of failing until restart, and a chat's messages are saved in one step.\n- Exports on mobile are written only to the location you chose in the save dialog.\n\n**Full Changelog**: https://github.com/ahpxex/read-aware/compare/v0.6.4...v0.6.5\n\n\nUpstream release: https://github.com/ahpxex/read-aware/releases/tag/v0.6.5",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.5/ReadAware-v0.6.5-ios-arm64.ipa",
+          "size": 15839903,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.6.4",
           "buildVersion": "0.6.4",
           "date": "2026-09-25",
@@ -1049,6 +1085,15 @@
     {
       "bundleIdentifier": "com.clark.dshmobile",
       "versions": [
+        {
+          "version": "1.7.0",
+          "buildVersion": "16",
+          "date": "2026-09-30",
+          "localizedDescription": "## 功能更新\r\n\r\n- iOS 和 Android 新增定时任务页面，可查看、搜索和筛选任务，编辑提醒时间与内容，并查看投递记录或删除任务。\r\n- iOS 和 Android 新增插件管理页面，可查看官方与已安装插件、组件状态，并启停支持的插件。\r\n- 改进工作区侧边栏与会话导航，优化对话中的执行状态、历史记录和实时轨迹展示。\r\n- 完善后台任务提醒：Android 增加 Agent 通知，iOS 优化通知与实时活动，并可从提醒返回对应会话。\r\n- 更新两端品牌视觉、启动画面和插件图标，改善审批提示与连接异常反馈。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.9.0` 或更高版本，以支持本版插件管理功能。\r\n- 安装或升级后，需完整重启 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.7.0",
+          "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.7.0/DshMobile-ios-v1.7.0-unsigned.ipa",
+          "size": 8491641,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.6.2",
           "buildVersion": "15",
