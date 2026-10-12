@@ -26,7 +26,8 @@
     "sh.celia.novella",
     "com.readaware.app",
     "com.lotus.yurigame",
-    "com.clark.dshmobile"
+    "com.clark.dshmobile",
+    "com.lichaofan.dshmobile"
   ],
   "apps": [
     {
@@ -156,6 +157,15 @@
     {
       "bundleIdentifier": "com.example.piliplus",
       "versions": [
+        {
+          "version": "2.1.6",
+          "buildVersion": "5472",
+          "date": "2026-10-10",
+          "localizedDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08\n\nUpstream release: https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.1.6.2",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+          "size": 24353925,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "2.1.5",
           "buildVersion": "5410",
@@ -522,6 +532,15 @@
       "bundleIdentifier": "com.minh-ton.Reynard",
       "versions": [
         {
+          "version": "0.17.0",
+          "buildVersion": "cd934ca",
+          "date": "2026-10-11",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\r\n\r\n### Improvements\r\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\r\n\r\n### New Features\r\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\r\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\r\n\r\n### Bug Fixes\r\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\r\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\r\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\r\n- Fixed several UI issues.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).\n\nUpstream release: https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
+          "size": 109222723,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "0.16.0",
           "buildVersion": "63fb54d",
           "date": "2026-10-04",
@@ -628,6 +647,15 @@
     {
       "bundleIdentifier": "com.kodjodevf.mangayomi",
       "versions": [
+        {
+          "version": "0.9.8",
+          "buildVersion": "126",
+          "date": "2026-10-06",
+          "localizedDescription": "## What's Changed\r\n* fix(tracker): improve Trakt.tv multi-season mapping, watchlist, and ratings sync by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1024\r\n* feat(tracker): Add backlog sections (Plan to read/Watchlist), handle AniList 429 rate limits, and prioritize Trakt series by @lee-gangjin in https://github.com/kodjodevf/mangayomi/pull/1030\r\n* fix(mihon): use the Cloudflare proxy for extension-server sources by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1026\r\n* fix(mihon): identify which source of an extension a call is for by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1027\r\n* Improve LNReader extension compatibility\r\n* fix: stale chapter page lists and add WebP decoding on Linux by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1031\r\n* fix: remember window geometry on Linux; add missing libavif to AppImage to resolve closure by @MenaHere in https://github.com/kodjodevf/mangayomi/pull/1032\r\n\r\n## New Contributors\r\n* @lee-gangjin made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1024\r\n* @matsukiender-star made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1026\r\n* @MenaHere made their first contribution in https://github.com/kodjodevf/mangayomi/pull/1031\r\n\r\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.7...v0.9.8\n\nUpstream release: https://github.com/kodjodevf/mangayomi/releases/tag/v0.9.8",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.8/Mangayomi-v0.9.8-ios.ipa",
+          "size": 114518028,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.9.7",
           "buildVersion": "125",
@@ -780,6 +808,15 @@
     {
       "bundleIdentifier": "com.example.kazumi",
       "versions": [
+        {
+          "version": "2.3.8",
+          "buildVersion": "20308",
+          "date": "2026-10-07",
+          "localizedDescription": "- 优化截图交互 (#2599) (@Predidit)\r\n- 统一应用内下拉菜单样式 (@Predidit)\r\n- 修复大字体下番剧详情页追番按钮与其他按钮重叠而无法点击的问题 (#2622) (@Predidit)\r\n- 修复宽屏设置页重复点击已选中分类时二级页面重复嵌套的问题 (#2607) (@Predidit)\r\n- 修复鼠标悬停时播放器控制栏动画反复重启的问题 (@Predidit)\r\n- 修复分集评论标题栏显示多余副标题的问题 (@Predidit)\r\n- 其他UI改进 (@Predidit)\n\nUpstream release: https://github.com/Predidit/Kazumi/releases/tag/2.3.8",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.8/Kazumi_ios_2.3.8_no_sign.ipa",
+          "size": 30463104,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "2.3.7",
           "buildVersion": "20307",
@@ -1025,6 +1062,15 @@
       "bundleIdentifier": "com.readaware.app",
       "versions": [
         {
+          "version": "0.6.6",
+          "buildVersion": "0.6.6",
+          "date": "2026-10-11",
+          "localizedDescription": "## New\n\n- **Plugins update themselves.** Plugins you install or update from the marketplace now keep themselves current — checked once a day, and right away after ReadAware itself updates. An update keeps the plugin's book access and whether it is turned on, and a plugin you turned off is updated without running. Updates that ask for new permissions, settings access or network sites wait for your approval in Settings → Plugins, and plugins you installed from a folder or zip are never replaced by a marketplace listing. Plugins installed before 0.6.6 announce their next update once; update them in Settings → Plugins → Marketplace and they update automatically from then on.\n\n## Improved\n\n- **A plugin that can't run tells you why.** Instead of \"Activation failed. Details are in the app log\", the plugin's row explains whether the plugin was built for an older ReadAware or needs a newer one — with an **Update to vX** button when the marketplace has a compatible release, or a shortcut to check for app updates.\n- **Plugin number settings stay in range.** A value outside the range a plugin declares is refused on its settings page with a clear message, the same rule the assistant already followed.\n- **Sync waits as long as the server asks.** When the sync server is busy, the next attempt is scheduled at the time it requests instead of a ten-minute backoff.\n- **Plugin developer docs and kit.** The plugin repository's template, typings and validator now match this release, it has a single-file guide for coding agents (`AGENTS.md`), and the website's API reference lists every capability and method with its signature, documentation and released version.\n\n## Fixed\n\n- **Footnote citations in AI replies** now jump to their note within the reply and back, instead of opening an external-link prompt.\n- **Links in Chinese and Japanese replies** no longer swallow the punctuation and text after a bare URL, such as a closing full-width parenthesis.\n\n**Full Changelog**: https://github.com/ahpxex/read-aware/compare/v0.6.5...v0.6.6\n\n\nUpstream release: https://github.com/ahpxex/read-aware/releases/tag/v0.6.6",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.6/ReadAware-v0.6.6-ios-arm64.ipa",
+          "size": 15850869,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.6.5",
           "buildVersion": "0.6.5",
           "date": "2026-09-29",
@@ -1101,6 +1147,32 @@
           "localizedDescription": "## 功能更新\r\n\r\n- iOS 与 Android 新增侧边抽屉，提供插件和定时任务入口，并改进暗色模式、滑动效果与页面跳转。\r\n- 新增定时任务列表与详情，可查看执行规则、下次计划时间和最近投递；支持跳转所属会话，以及编辑标题、任务内容、执行时间或删除任务。\r\n- 改进后台 Agent 通知和 iOS 实时活动的状态显示。\r\n- 同步权限选项，优化实时消息与执行轨迹显示，并改进操作失败时的提示。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.8.1` 或更高版本。\r\n- 安装后需要完整重启 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.6.2",
           "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.6.2/DshMobile-ios-v1.6.2-unsigned.ipa",
           "size": 6275015,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "name": "DshMobile",
+      "developerName": "Clarklevis1995",
+      "subtitle": "DeepSeek Harness 原生 iOS 客户端",
+      "localizedDescription": "DshMobile(DeepSeek Harness Mobile)通过 dsh-plugin-mobile-gateway 与 Harness 建立 WebSocket 连接,把工作区、会话、实时回复和 Agent 执行轨迹带到 iPhone。本条目仅索引原作者 GitHub Releases 中发布的未签名 iOS IPA。",
+      "iconURL": "https://raw.githubusercontent.com/Clarklevis1995/dsh-mobile/main/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png",
+      "tintColor": "#4D6BFE",
+      "category": "developer",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "bundleIdentifier": "com.lichaofan.dshmobile",
+      "versions": [
+        {
+          "version": "1.7.2",
+          "buildVersion": "19",
+          "date": "2026-10-10",
+          "localizedDescription": "## 功能更新\r\n\r\n- iOS 应用与灵动岛统一使用 Whaleness 品牌，并改善 Agent 在后台运行时的实时活动状态更新。\r\n- iOS 和 Android 设置页新增隐私政策入口。\r\n- 完善 iOS 审批流程的英文提示；连接个人网关遇到证书信任错误时，提供更明确的处理指引。\r\n- 手机连接网关时上报设备名称，方便在可信设备列表中识别不同设备。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.10.0` 或更高版本。\r\n- 安装后需要完整重启 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.7.2",
+          "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.7.2/DshMobile-ios-v1.7.2-unsigned.ipa",
+          "size": 8547050,
           "minOSVersion": "17.0"
         }
       ],
