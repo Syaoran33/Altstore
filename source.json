@@ -35,6 +35,15 @@
       "versions": [
         {
           "version": "0.9",
+          "buildVersion": "4",
+          "date": "2026-10-16",
+          "localizedDescription": "A small build update for 0.9 with a number of bug fixes.\r\n\r\n- Fixed some pages not loading in webtoon reader\r\n- Improved webtoon reader memory usage (hopefully fixes crash after reading multiple chapters)\r\n- Fixed crash when searching anywhere in the macOS app\r\n- Various other bug fixes\n\nUpstream release: https://github.com/Aidoku/Aidoku/releases/tag/v0.9-4",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+          "size": 14753154,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "0.9",
           "buildVersion": "3",
           "date": "2026-09-03",
           "localizedDescription": "- OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\r\n- Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\r\n- Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\r\n- Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\r\n- Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\r\n- Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\r\n- Many more things: see [the website](https://aidoku.app/release-notes/) for a more complete list.\n\nUpstream release: https://github.com/Aidoku/Aidoku/releases/tag/v0.9",
@@ -532,6 +541,15 @@
       "bundleIdentifier": "com.minh-ton.Reynard",
       "versions": [
         {
+          "version": "0.18.0",
+          "buildVersion": "860bb6f",
+          "date": "2026-10-18",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\r\n\r\n### New Features\r\n- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\r\n\r\n### Improvements\r\n- Scrolling on webpages is now smoother and more accurate.\r\n- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.\r\n\r\n### Bug Fixes\r\n- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a `<select>` element.\r\n- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.\r\n- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.\r\n- Fixed an issue where touches on some webpages would land in the wrong place.\r\n- Added small performance improvements and fixed several UI issues.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).\n\nUpstream release: https://github.com/minh-ton/reynard-browser/releases/tag/0.18.0",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
+          "size": 109731773,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "0.17.0",
           "buildVersion": "cd934ca",
           "date": "2026-10-11",
@@ -647,6 +665,15 @@
     {
       "bundleIdentifier": "com.kodjodevf.mangayomi",
       "versions": [
+        {
+          "version": "0.9.9",
+          "buildVersion": "127",
+          "date": "2026-10-12",
+          "localizedDescription": "## What's Changed\n* fix(extension): enable mobile code copy by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1039\n* fix(reader): restore double-tap zoom toggle by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1037\n* feat(player): add hold-and-slide speed selector by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1038\n* fix(http): drop the quotes Linux wraps the saved user agent in by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1036\n* fix(security): show what deep links install and keep tokens out of sh… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1041\n* chore: await dropped writes, add guard lints, localize hardcoded strings by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1042\n* refactor: move the tracker library cache from Hive to Isar by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1043\n* refactor: split large widget files and remove duplicated code by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1044\n* Try to fix chapter sorting by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1035\n* Add a protected HLS proxy for extension playback by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1040\n* Fix reader by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1051\n* fix(mobile): improve player controls and error handling by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1047\n* fix(restore): improve error handling and reporting during restore ope… by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1052\n* fix(reader): pan a zoomed webtoon page without losing double tap by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1054\n* ci: run the test suite on pull requests and main by @kodjodevf in https://github.com/kodjodevf/mangayomi/pull/1056\n* Use neutral icons for extension repositories by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1045\n* Add western recommendations and trustworthy watch orders by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1050\n* Refine portrait player controls by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1058\n* fix: recognise \"T1\" seasons and \"Episodio\" episodes by @matsukiender-star in https://github.com/kodjodevf/mangayomi/pull/1060\n* Hide settings, that the user disabled by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1059\n* fix(tv): make Browse overscan safe and focus reachable by @mrandhawa14 in https://github.com/kodjodevf/mangayomi/pull/1061\n* add useful comments to extension template by @NBA2K1 in https://github.com/kodjodevf/mangayomi/pull/1057\n\n\n**Full Changelog**: https://github.com/kodjodevf/mangayomi/compare/v0.9.8...v0.9.9\n\nUpstream release: https://github.com/kodjodevf/mangayomi/releases/tag/v0.9.9",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.9/Mangayomi-v0.9.9-ios.ipa",
+          "size": 114603425,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.9.8",
           "buildVersion": "126",
@@ -808,6 +835,15 @@
     {
       "bundleIdentifier": "com.example.kazumi",
       "versions": [
+        {
+          "version": "2.3.9",
+          "buildVersion": "20309",
+          "date": "2026-10-14",
+          "localizedDescription": "- 修复 Windows 偶发的闪退问题 (#2668) (@Predidit)\r\n- 修复 Android 平台播放内容开头数秒可能被跳过的问题 (#2687) (@Predidit)\r\n- 现在可以选择 GitHub 或镜像源进行应用更新 (@liangyuR)\r\n- Android 平台现在支持自定义视频下载目录 (#2464 #2632) (@LiggMax)\r\n- 截图挑选面板新增全选功能 (#2603) (@rinnki-L)\r\n- 规则 API 检索模式支持通过模板将 ID 拼接为详情页链接 (@JesseLee-CN)\r\n- 修复 iOS 平台应用更新后离线缓存失效的问题 (#2611 #2243) (@liangyuR)\r\n- 修复横屏时播放页侧边面板左侧出现多余空白的问题 (@LiggMax)\r\n- 其他UI改进 (@Predidit)\n\nUpstream release: https://github.com/Predidit/Kazumi/releases/tag/2.3.9",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.9/Kazumi_ios_2.3.9_no_sign.ipa",
+          "size": 30477942,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "2.3.8",
           "buildVersion": "20308",
@@ -1062,6 +1098,15 @@
       "bundleIdentifier": "com.readaware.app",
       "versions": [
         {
+          "version": "0.6.7",
+          "buildVersion": "0.6.7",
+          "date": "2026-10-13",
+          "localizedDescription": "## Fixed\n\n- **Short swipes turn the page.** In page-turn mode on phones and tablets, a quick flick now turns the page even when your finger slows down before lifting, and a slower drag turns it once it covers a quarter of the page. Before, a page turned only after dragging past half the screen, and a hard flick could skip a page; now a swipe moves exactly one page.\n- **The app no longer zooms like a web page.** A two-finger pinch or a double tap no longer magnifies the whole app on Android and iOS. PDFs and comics still zoom with a pinch, and text size stays in the reader's font settings.\n- **The model list stays open on Android.** In Settings → AI, the model picker no longer closes the moment you open it when the on-screen keyboard appears; the field moves above the keyboard so you can search and pick.\n\n**Full Changelog**: https://github.com/ahpxex/read-aware/compare/v0.6.6...v0.6.7\n\n\nUpstream release: https://github.com/ahpxex/read-aware/releases/tag/v0.6.7",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.7/ReadAware-v0.6.7-ios-arm64.ipa",
+          "size": 15851123,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.6.6",
           "buildVersion": "0.6.6",
           "date": "2026-10-11",
@@ -1166,6 +1211,15 @@
     {
       "bundleIdentifier": "com.lichaofan.dshmobile",
       "versions": [
+        {
+          "version": "1.7.7",
+          "buildVersion": "28",
+          "date": "2026-10-18",
+          "localizedDescription": "## 功能更新\r\n\r\n- 修复代码文件预览中长行无法左右滑动的问题；Markdown 文件支持「源码 / 预览」切换，并保留各自的阅读位置。\r\n- 优化双端文字与语音输入切换，使用独立的「按住说话」区域，改善录音浮层的出现动画，避免长按编辑文字时误触录音。\r\n- 优化 iOS 和 Android 插件页面的图标加载与列表滚动流畅度。\r\n- 修复 iOS 加载更早对话时跳到顶部和滚动卡顿的问题，加载后保留当前阅读位置。\r\n- 对齐 Android 文件预览切换控件的 iOS 风格，收紧文件卡片的文字行距。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.10.3` 或更高版本。\r\n- 安装或升级后，需要完整退出并重新启动 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.7.7",
+          "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.7.7/DshMobile-ios-v1.7.7-unsigned.ipa",
+          "size": 11284854,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.7.2",
           "buildVersion": "19",
