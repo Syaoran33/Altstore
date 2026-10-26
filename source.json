@@ -336,6 +336,15 @@
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
       "versions": [
         {
+          "version": "0.2.29",
+          "buildVersion": "2026102016",
+          "date": "2026-10-20",
+          "localizedDescription": "这一版重点打磨了发帖与回复：编辑工具更顺手，草稿保存和附件上传的状态也更清楚。话题列表可按需展示摘要与图片，树形阅读支持续读，底栏和编辑工具栏则换上了新的玻璃质感。\n\n### ✍️ 更顺手的编辑体验\n\n- 发帖、编辑和回复的工具栏重新整理，支持切换富文本、源码和预览。手机上收起键盘后仍可使用工具，展开面板查找功能，也能搜索全部工具、挑选常用项。\n- 富文本编辑器仍为「实验性」功能。这次完善了文字选择、光标移动、链接编辑和图片操作，减少切换视图时失败、编辑链接后光标位置异常等问题。\n- 输入斜杠可查找要插入的内容；图片、引用、代码块等内容的操作入口也更统一。图片网格可以继续添加图片，并单独操作其中一张。\n- 手机端新增表格行列操作面板，点选单元格后即可插入或删除行列。编辑表格时会调整滚动位置，减少输入区域被键盘挡住的情况。\n\n### 📝 草稿保存更安心\n\n- 草稿会明确显示待保存、保存中、已保存或失败；只存到本机、尚未同步到云端时，也有单独提示。\n- 多设备修改同一份草稿发生冲突时，可以选择使用云端版本或用本机内容覆盖云端，取消则继续保留本机内容。\n- 修复云端草稿恢复、多设备同步和展开编辑器后自动保存的问题，也修复了舍弃草稿后旧内容又被重新保存、长草稿恢复时编辑区偶现空白的情况。\n\n### 📤 附件上传与视频压缩\n\n- 发帖、回复和聊天中的附件现在都有更清楚的任务状态，可以查看准备、上传和处理进度，失败后重试，也能取消或移除。\n- 富文本中的上传图片会在正文位置显示预览和状态，减少重复提示；还有附件未完成或失败时，会提示先处理再发布。\n- 超限音视频按社区允许的附件大小进行压缩。视频可选择「兼容优先」「录屏清晰优先」或「体积优先」；未超限的文件保留原文件。\n- 支持社区开启的分片上传，并修复空草稿选图后无法上传、部分上传创建失败和聊天图片处理不一致的问题。\n\n### 📖 列表预览与树形续读\n\n- 在话题卡片样式设置中，可以分别开启摘要和图片预览，两项默认关闭。摘要默认显示三行，可展开阅读或长按复制，不必每次都进入话题。\n- 默认使用列表已有的摘要和图片；需要更完整内容时，可单独开启「允许额外请求」，加载首楼摘要及最多四张图片。开启前会提示增加流量与站点负载。\n- 默认使用树形视图时，普通打开话题从完整内容开始；想接着读，可以使用「继续上次阅读」，恢复楼层、帖内位置和分支展开状态。通知和指定楼层链接仍定位到对应帖子。\n- 长回复分支可以分段展开，并快速前往下一条主回复；排序选择会被记住，新回复也可主动加载。修复列表切换筛选或翻页后更新提示消失的问题。\n\n### 🔔 订阅与消息更新\n\n- 标签页面新增订阅设置，可以按兴趣调整通知级别；分类、标签和话题的订阅选项采用一致的选择面板。\n- 私信收件箱能及时提示有新内容的会话，来自群组私信的更新也能跟进；话题静音及取消静音后的未读状态同步更准确。\n- 修复聊天分页、重新加载和跳转消息后的位置跳动，以及顶部出现大块可滚动空白的问题。\n\n### 🫧 玻璃外观与表情面板\n\n- 底栏和编辑工具栏加入新的玻璃质感，可在外观设置中统一开关，选择自动、基础磨砂或完整玻璃；关闭后使用实色表面。\n- 提示消息换成胶囊样式，进出动画更连贯，修复退场重叠和失败提示显示问题。首页悬浮菜单也调整了动效，并可单独设置刷新按钮是否显示。\n- 表情面板更新了样式与展开动画，表情首屏显示更及时；修复长按选择、平板面板高度异常，以及关闭面板后操作报错的问题。\n\n### 🌐 网络与登录\n\n- 加密 DNS 设置新增「公共 ECH 入口」开关和适用域名管理。可以查看内置规则，添加、编辑或删除自定义域名，规则同时覆盖子域名；自定义域名需支持 Cloudflare ECH。\n- 修复通过验证后状态判断不准、可能再次弹出验证页面的问题，改善部分网络请求等待后无法继续的情况。\n- 修复部分社区使用账号密码登录时，二步验证提示「所选双重身份验证方法无效」的问题。\n\n### 🛠️ 设备兼容与日常修复\n\n- Android 新增渲染兼容模式，供遇到相关闪退的设备尝试；检测到部分 Mali 显卡相关崩溃后会提示开启，切换后需重启应用。\n- 修复 Android 动图保存失败、部分视频画面被裁切，以及 iPhone、iPad 附件下载目录无法访问的问题。\n- 社区提供设备信息时，帖子可以显示来自哪款 iOS 设备；同时修复手机上回复对象被操作按钮挤压省略的问题。\n- 修复用户专属回复字数下限被分类规则覆盖，以及余额卡片加载和授权状态处理异常的问题。\n\n<details>\n<summary>📋 完整更新明细(点击展开)</summary>\n\n## [0.2.29] - 2026-10-20\n\n\n### 🌟 新功能\n\n- 优化默认树形视图与阅读位置恢复体验 by @Lingyan000\n\n- 优化编辑器工具栏动画与玻璃材质过渡 by @Lingyan000\n\n- 新增可选话题摘要和图片预览 (#410) by @wxk66\n\n- 新增公共 ECH 入口开关和自定义域名管理 by @Lingyan000\n\n- 显示 iOS 帖子的设备来源 (#416) ([#416](https://github.com/lingyan000/fluxdo/pull/416)) by @stevessr\n\n- 重做 Toast:灵动胶囊 + 玻璃材质,修复退场重叠与失败提示 by @Lingyan000\n\n- 接入移动端表格行列操作面板 by @Lingyan000\n\n- 完成语义编辑器生产迁移并清理旧逻辑 by @Lingyan000\n\n- 统一上传任务体验并优化图片与块插入交互 by @Lingyan000\n\n- 优化媒体压缩策略并修复 Android 视频裁切显示 by @Lingyan000\n\n- 支持配置驱动分片上传并统一聊天图片处理 by @Lingyan000\n\n- 按场景分级玻璃模糊并增强浮层可读性 by @Lingyan000\n\n- 支持标签订阅并统一订阅设置入口 by @Lingyan000\n\n- 完善图片网格添加与单图操作 by @Lingyan000\n\n- 统一富文本块交互与斜杠选择器 by @Lingyan000\n\n- 支持弹出菜单自定义材质 by @Lingyan000\n\n- 优化编辑工具栏交互并适配桌面宽屏 by @Lingyan000\n\n- 优化首页 FAB 菜单与显隐动效，新增独立刷新开关 by @Lingyan000\n\n- 让移动端编辑工具栏常驻并解除键盘状态限制 by @Lingyan000\n\n- 收纳草稿状态并优化编辑器悬浮栏属性展示 by @Lingyan000\n\n- 精简编辑器提交按钮并统一草稿保存反馈 by @Lingyan000\n\n- 优化编辑工具栏层级与单行收拢过渡 by @Lingyan000\n\n- 统一全局玻璃开关与效果档位 by @Lingyan000\n\n- 支持工具列表到顶后继续下拉收起面板 by @Lingyan000\n\n- 调校通透玻璃材质与方向性光学边缘 by @Lingyan000\n\n- 重构编辑工作台并完善移动端交互 by @Lingyan000\n\n- 底栏柔光玻璃材质:折射 shader + 方向性边缘光 by @Lingyan000\n\n- 表情面板动效与样式升级 by @Lingyan000\n\n- MessageBus: 补站点级频道(/categories /client_settings /refresh_client) by @Lingyan000\n\n- MessageBus: 补用户级频道(勿扰/草稿/用户状态/待审计数) by @Lingyan000\n\n- MessageBus: 补私信实时追踪(PM tracking) by @Lingyan000\n\n- MessageBus: 订阅 /site/read-only 站点只读状态 by @Lingyan000\n\n- MessageBus: 补 muted/unmuted 消息类型与静音过滤 by @Lingyan000\n\n- MessageBus: 订阅 /logout/:user_id 服务端强制登出 by @Lingyan000\n\n- MessageBus: 补 /delete /recover /destroy 处理 by @Lingyan000\n\n- 支持标题 URL 自动解析为精选链接 (#393) ([#393](https://github.com/lingyan000/fluxdo/pull/393)) by @stevessr\n\n\n### 🐛 修复\n\n- 修复 iOS 文件保存分流并补齐导出失败日志 by @Lingyan000\n\n- 补齐下载失败诊断并解除备份属性阻断 by @Lingyan000\n\n- 去除树形视图重复入口并恢复排序样式 by @Lingyan000\n\n- 修复空草稿选图后上传失效及面板布局 by @Lingyan000\n\n- 修复富文本链接后正文光标定位异常 by @Lingyan000\n\n- 修复 iOS 附件下载目录访问失败 by @Lingyan000\n\n- 修复富文本上传任务重复提示 by @Lingyan000\n\n- 修复余额卡片加载及授权状态处理 by @Lingyan000\n\n- 修复舍弃草稿后旧内容被重新\n\n…",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.29/fluxdo-unsigned.ipa",
+          "size": 55505719,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.2.28",
           "buildVersion": "2026090421",
           "date": "2026-09-04",
@@ -469,6 +478,15 @@
     {
       "bundleIdentifier": "com.xycz.simple-live",
       "versions": [
+        {
+          "version": "1.13.2",
+          "buildVersion": "11302",
+          "date": "2026-10-20",
+          "localizedDescription": "# Simple Live v1.13.2\r\n\r\n发布日期：2026-10-01（2026-10-20 重新构建，版本号不变）\r\n\r\n## 2026-10-22 追加改动\r\n\r\n### Windows 安装包 [Discussion #147](https://github.com/June6699/dart_simple_live/discussions/147)，[PR #148](https://github.com/June6699/dart_simple_live/pull/148)，感谢 @821869798 \r\n\r\n- Windows 端新增官方 Inno Setup 安装包 `SimpleLive-Windows-v1.13.2-Setup.exe`，与原有 zip 绿色版同时提供，按需选择。\r\n- 普通用户免管理员权限即可安装到当前用户目录；以管理员身份运行时安装到 Program Files。\r\n- 自动创建开始菜单快捷方式，桌面快捷方式为可选项；注册 App Paths，支持 `Win+R` 输入 `simplelive` 直接启动。\r\n- 在系统「已安装的应用」中可正常卸载，自动清理安装目录与注册表项。\r\n- 安装包采用 LZMA2 压缩（约 59.7 MB）；安装向导界面为英文。\r\n- 构建侧顺带修复两处问题，保证 Windows 包可持续构建：libmpv 预编译归档被上游清理导致 CI 断流（升级至 20261021 构建，并增加主源 + 本项目镜像的多 URL）；抑制 VS 2022 17.12+ 的 MSVC 协程弃用警告，避免插件编译失败。\r\n\r\n\r\n## 2026-10-19 追加改动\r\n\r\n### 全屏方向可配置 [Discussion #141](https://github.com/June6699/dart_simple_live/discussions/141)\r\n\r\n- 设置 → 直播间设置新增「全屏方向」：**智能（默认）** / **强制横屏** / **跟随系统**。\r\n- 平板锁定竖屏时选择「强制横屏」，点全屏即可转成横屏铺满，不再只能接受竖屏里的信箱画面；退出全屏后回到系统锁定的方向。\r\n- 「智能」下手机行为与旧版一致：全屏横屏直播自动横屏、退出回到竖屏、OEM 系统小窗内点全屏同样横屏、小窗展开后恢复沉浸式+横屏。\r\n- 顺带修复：平板/大屏从系统小窗展开回全屏时，现在会恢复沉浸式（此前该分支与“能否锁方向”共用判断而被跳过）。\r\n- 全屏方向按设备保存，不随配置包或账号同步迁移（手机与平板可以各自设置）。\r\n- 平台限制：Android 16 及以上、屏幕最小宽度 ≥600dp 的设备，系统会忽略应用的强制方向请求，此时只能依赖系统自动旋转。\r\n\r\n### 后台播放可关闭音频焦点 [Issue #144](https://github.com/June6699/dart_simple_live/issues/144)\r\n\r\n- 设置 → 直播间设置新增「与其他应用同时播放」，**默认关闭**。\r\n- 关闭时保持旧行为：后台播放/听直播会申请音频焦点，被前台视频应用抢占后按系统规范暂停。\r\n- 开启后不再申请音频焦点，也不会在焦点丢失时暂停，可与 B站、微博 等应用同时出声；代价是可能出现两个应用同时出声，来电、蓝牙/车机等场景可能异常。\r\n\r\n### 界面与入口修复\r\n\r\n- 修复斗鱼「扫码登录」页面打不开的问题：页面依赖的 GetX 控制器没有随路由注入，点进去会直接抛异常退出。现改为在打开页面时绑定控制器，退出后自动释放。\r\n- 修复扫码确认后换取播放 Cookie 失败（提示“斗鱼续期失败，请重新扫码登录”）：safeAuth 换票是**一跳 302 到 www 域后才下发 acf_* 登录 Cookie**，旧实现不跟随跳转、只读第一跳响应，因此必然拿不到 Cookie。现在按跳转链逐跳跟随并累积 Set-Cookie，每一跳都带上 LTP0/dy_did，换票结果同时兼容“只有 acf_* 没有 acf_jwt_token”的响应。\r\n- 抖音直播间顶部信息改为两行：「在线」一行、「累计」一行；火焰/人形图标缩小，图标与文字间距收紧。站点名（如“抖音直播”）改为单行省略，不再与右侧在线数据互相压字。\r\n\r\n### TV 端「我的关注」刷新体验[Issue #143](https://github.com/June6699/dart_simple_live/issues/143) 后续反馈\r\n\r\n仅有 TV 端（`simple_live_tv_app`）代码改动，手机端行为不变：\r\n\r\n- 刷新关注状态时列表保持静止，不再每次重排并整体重建关注网格；卡片「直播中 / 未开播」徽标仍实时更新，排序在刷新结束后统一生效。修复刷新期间首页光标在「我的关注」行与列表之间回弹、关注页多处同时点亮、左键弹出列表选不中，以及懒人模式读到刷新中间态顺序的问题。\r\n- 关注卡片焦点节点改为按房间复用，重排或重建时焦点跟着卡片走；左键弹出列表打开时对在播列表拍快照，不再随刷新重建。\r\n- 刷新续跑进度改为约 2 秒落盘一次，500 条以上任务的进度条改为每 20 条刷新一次，缓解大关注量（3000+）下的卡顿、闪退和自动刷新提前停止。\r\n- 首页「我的关注」固定展示前 60 条，与关注页分页解耦。\r\n\r\n> 说明：该批改动在 v1.13.2 安装包构建（10-19 17:56）之后完成，手机端安装包本来也不包含 TV 端代码，不影响本次手机端产物。TV 端需要重新构建 TV 安装包才会生效，详见 `release/tv_v1.8.2`。\r\n\r\n### 文档\r\n\r\n- `SETTINGS_GUIDE.md` 新增 9.6（平板锁定竖屏时不自动横屏如何设置）、9.7（后台听直播被其它应用打断的原因与开关），并更新了设置项说明。\r\n\r\n## 新功能与平台支持\r\n\r\n### 听直播模式（Android / iOS）\r\n\r\n- 直播间菜单新增“听直播”，禁用视频轨并保留音频，降低耗电和流量。\r\n- 独立音频页显示主播头像、名称与直播状态，提供播放/暂停及定时关闭。\r\n- 支持 30、60、90、120 分钟或自定义时长；到时后按定时关闭逻辑退出。\r\n- 加固后台收听：Android 使用前台服务，iOS 使用后台音频会话；主播下播、自动切换或刷新重连后仍保持纯音频状态。\r\n\r\n### 斗鱼扫码登录与 Cookie 自动续期\r\n\r\n- 账号管理中的斗鱼账号支持使用斗鱼 APP 扫码确认登录；手动 Cookie 配置继续保留。\r\n- 本机保存续期凭据（LTP0 / dy_did），播放 Cookie 过期后自动向斗鱼 Passport 换取新 Cookie。Cookie 约 7 天的有效期不再要求用户定期手工更新；平台撤销授权或凭据失效时仍需重新登录。\r\n- 扫码流程会提示用户：确认操作在斗鱼 APP 中完成，设备与位置信息由斗鱼侧记录；介意者可以改用手动 Cookie。\r\n- 局域网设备同步和远程房间同步兼容传递续期凭据；旧接收端可忽略新字段，同步取得的 Cookie 也会尝试提取续期凭据。\r\n- 斗鱼 WebSocket 播放地址按需使用 `expire=0`，降低短时效线路的断流风险。\r\n\r\n## 修复与稳定性\r\n\r\n### 斗鱼观看稳定性\r\n\r\n- 播放恢复成功后重置连续失败计数，避免周期性断流几次后被误判下播。\r\n- 斗鱼与虎牙线路耗尽后可重新签名取流再尝试；恢复过程中的取流异常进入既有兜底流程。\r\n- 5 分钟内恢复超过 6 次时停止无限重试，按播放失败流程处理，并可按设置自动换台。\r\n- 斗鱼登录态签名使用 Cookie 中的 `acf_did`；匿名态使用本机持久化的独立设备号。设备号不会随配置或账号同步迁移，Cookie 同步行为保持不变。\r\n\r\n### 直播间进入与自动切换\r\n\r\n- 进入被封禁或平台禁止进入的房间时显示错误页和手动重试入口；启用自动切换后，可继续检索正在直播的关注房间。\r\n- 自动切换优先使用关注列表中的在播缓存并确认候选，避免逐一查询所有离线房间；遇到抖音 444 风控响应时停止本轮请求。\r\n- 离线房间首次检索失败后，8 秒后补试一次；自动切换仍受跳转次数和时间窗口限制。\r\n\r\n### 播放停滞与黑屏恢复\r\n\r\n- 看门狗刷新纳入 5 分钟内最多 6 次的刷新保护；重复停滞时停止原地重刷并进入播放失败/自动切换兜底。\r\n- 新增视频解码错误判据：30 秒内视频解码器错误达到 15 次时，交由恢复链重开播放。\r\n- Android 前台播放期间额外观察 mpv 视频输出累计丢帧数。连续 3 个采样窗口各丢帧至少 25 帧时触发既有恢复链；每个窗口约 2 秒，短暂抖动、后台播放和用户暂停不会触发。该判据针对持续严重丢帧，不保证覆盖所有设备或解码器故障。\r\n- Windows 最小化或完全遮挡期间按设置暂停播放，回到前台后恢复；后台播放错误延迟到前台处理，播放器打开操作设有超时，避免恢复链永久阻塞。\r\n- Windows 停用视频尺寸异常自愈，避免回前台时与纹理管线恢复发生竞态。\r\n- 修复 macOS（包括 Intel 设备）因 App Sandbox 限制媒体播放列表临时文\n\n…",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.2/ios_no_sign.ipa",
+          "size": 35118814,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "1.13.1",
           "buildVersion": "11301",
@@ -836,6 +854,15 @@
       "bundleIdentifier": "com.example.kazumi",
       "versions": [
         {
+          "version": "2.4.2",
+          "buildVersion": "20402",
+          "date": "2026-10-23",
+          "localizedDescription": "- 修复部分地区规则仓库无法访问的问题\n\nUpstream release: https://github.com/Predidit/Kazumi/releases/tag/2.4.2",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_ios_2.4.2_no_sign.ipa",
+          "size": 30521004,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.3.9",
           "buildVersion": "20309",
           "date": "2026-10-14",
@@ -1072,6 +1099,15 @@
       "bundleIdentifier": "sh.celia.novella",
       "versions": [
         {
+          "version": "2.6.0",
+          "buildVersion": "449",
+          "date": "2026-10-20",
+          "localizedDescription": "<img width=\"800\" alt=\"Banner\" src=\"https://github.com/user-attachments/assets/f4b680a1-ec67-4478-99b8-f31bf9b513b1\" />\r\n\r\n## **What's Changed 🧐**\r\n\r\n本次更新主要带来了 **iPhone Duo 适配** 和 **私信功能**，并重新设计了 **社区、公告与书籍详情**。\r\n**仅支持 iOS / iPadOS**。\r\n\r\n### **⚡️ 内容概要**\r\n\r\n* **平板与可折叠设备**\r\n  大屏与横屏下自动切换为双栏版面。\r\n  页面内容和阅读器会避开可折叠设备的侧边栏。\r\n  窗口尺寸变化时显示过渡效果。\r\n  书籍详情新增横屏版面，完整显示封面。\r\n  统一页面边距、书籍网格间距与标题样式。\r\n\r\n* **私信**\r\n  新增私信，支持一对一交流。\r\n  会话列表显示未读数，并实时更新。\r\n  横屏下以左右分栏显示会话与聊天，临时会话同样显示在侧栏。\r\n\r\n* **社区与公告**\r\n  重新设计社区与公告页面，适配手机与横屏。\r\n  帖子支持显示图片，点击后可全屏浏览。\r\n  分类标签在滚动边缘渐隐。\r\n  个人资料卡片更加紧凑。\r\n\r\n* **阅读器**\r\n  小说分页模式显示准确页码，进度条反映实际分页进度。\r\n  加载过程中锁定阅读进度。\r\n  漫画新增多种显示方式。\r\n  在可折叠设备上，书名与进度显示在侧边栏，以提升内容紧凑性。\r\n  图片预览改为直接打开，并改进对异常章节资源的处理。\r\n\r\n* **界面与体验**\r\n  更新后首次启动时展示本版本亮点，也可在 **设置 › 关于** 中再次查看。\r\n  骨架屏动画同步，并与实际内容对齐。\r\n  圆角统一使用连续曲率。\r\n  使简介预览正确截断，修复长按书籍详情误触快速搜索。\r\n\r\n* **项目整理**\r\n  升级至 Expo SDK 58 与 React Native 0.88，使用 Xcode 27 构建。\r\n  移除对 react-native-paper 的依赖。\r\n  许可证新增附加条款：衍生作品须注明来源，且素材不在 AGPL 授权范围内。\r\n  详见 [ADDITIONAL-TERMS.md](https://github.com/celia-sh/Novella/blob/main/ADDITIONAL-TERMS.md) 与 [BRAND-ASSETS.md](https://github.com/celia-sh/Novella/blob/main/BRAND-ASSETS.md)。\r\n\r\n网页重新设计：[**添加到侧载工具**](https://sideload.celia.sh) ↗️\r\n了解其它项目：[**celia-sh/Hana**](https://github.com/celia-sh/Hana) 🌸\r\n闲聊吹水 / 反馈问题：[**点此加入**](https://t.me/+xNDJEfc_naRlMGEx) ✈️\r\n\r\n> [!CAUTION]\r\n> **本应用与网站没有直接关系**，所以**不要在**社区发布和**本软件**相关的帖子。\r\n> 正确反馈渠道：在仓库开 Issues，或者加入交流群。\r\n> 记得**看完公告和发帖前提示**，以免被网站封禁；如果不看，我只能说：非我封禁，无能为力。\r\n> 请记清楚，这不是官方软件。\r\n\r\n<img width=\"800\" alt=\"Banner\" src=\"https://github.com/user-attachments/assets/239bca0f-8da5-4448-b714-90ecb94cf240\" />\n\nUpstream release: https://github.com/celia-sh/Novella/releases/tag/v2.6.0",
+          "downloadURL": "https://github.com/celia-sh/Novella/releases/download/v2.6.0/Novella-2.6.0-release.ipa",
+          "size": 29979710,
+          "minOSVersion": "16.4"
+        },
+        {
           "version": "2.5.0",
           "buildVersion": "362",
           "date": "2026-09-23",
@@ -1097,6 +1133,15 @@
     {
       "bundleIdentifier": "com.readaware.app",
       "versions": [
+        {
+          "version": "0.6.8",
+          "buildVersion": "0.6.8",
+          "date": "2026-10-21",
+          "localizedDescription": "## New\n\n- **Image backgrounds for reading.** The built-in Image Background plugin turns any local PNG, JPEG or WebP into a reading theme. Pick an image, see a preview, then choose a base theme for colors and typography and set the image's opacity and dimming. You can keep up to twelve named themes, and the plugin page has its own Page color picker, so you can switch between image themes and regular page colors without leaving it.\n- **Tap zones and volume keys turn pages.** Settings → Reading → Page Turning adds tapping the sides of the page (or a one-handed forward zone) in three widths, and on Android the volume keys, with a choice of which key reads on. Both are off by default, and the Agent can change them for you.\n- **Import a whole folder.** Add every book in a folder at once on desktop, Android and iOS from the shelf menu, the command palette or the empty shelf. On desktop you can also drop a folder onto the window. Each book remembers which folder it came from, so you can ask the Agent to group your shelf by folder.\n- **Your own fonts on every platform.** Import TTF, OTF, WOFF, WOFF2 or TTC font files from the reading font menu on desktop, Android and iOS. Imported fonts sync to your other devices, and removing one sends affected settings back to their defaults.\n\n## Improved\n\n- **One dropdown for reading fonts.** Importing and removing fonts now happens inside the font dropdown, instead of in a separate list below it.\n- **Plugin toolbars hide less.** A plugin's \"More\" menu no longer appears with just one item; that action is shown as a button instead.\n\n## Fixed\n\n- **Sentence mode picks up where you left off on another device.** After a sync, sentence and paragraph mode resume at the position you reached on the other device, instead of jumping back to an old chapter.\n- **Swipe back in iOS Settings.** The edge-swipe gesture now goes back a level in Settings on iPhone and iPad.\n- **Agent menu entries respond across the whole row.** Items in the Agent's overflow menu can be tapped anywhere on the row, not just on the label.\n\n**Full Changelog**: https://github.com/ahpxex/read-aware/compare/v0.6.7...v0.6.8\n\n\nUpstream release: https://github.com/ahpxex/read-aware/releases/tag/v0.6.8",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.8/ReadAware-v0.6.8-ios-arm64.ipa",
+          "size": 15875296,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.6.7",
           "buildVersion": "0.6.7",
@@ -1211,6 +1256,15 @@
     {
       "bundleIdentifier": "com.lichaofan.dshmobile",
       "versions": [
+        {
+          "version": "1.7.10",
+          "buildVersion": "31",
+          "date": "2026-10-23",
+          "localizedDescription": "## 功能更新\r\n\r\n- 支持在会话中选择并上传文件，查看上传进度、移除附件或重试失败上传；已发送文件以附件卡片展示。\r\n- 双端新增独立的正文文字选择页面，长按进入后可选择、全选和复制，关闭后保留原会话阅读位置。\r\n- 统一 Android 菜单的圆角毛玻璃、轻阴影与动效，改善文字操作菜单、工作区和设置弹层的一致性。\r\n- 修复 iOS 点击「查看完整团队内容」后需等待菜单收回才弹出面板的问题，保留面板上滑动画，并避免关闭后团队按钮隐藏。\r\n- 改善 iOS 从后台恢复时的连接验证与请求超时处理，减少误报，并提升相册图片发送的格式兼容性。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.11.1` 或更高版本。\r\n- 安装或升级后，需要完整退出并重新启动 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.7.10",
+          "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.7.10/DshMobile-ios-v1.7.10-unsigned.ipa",
+          "size": 15375152,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.7.7",
           "buildVersion": "28",
