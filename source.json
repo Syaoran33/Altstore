@@ -167,6 +167,15 @@
       "bundleIdentifier": "com.example.piliplus",
       "versions": [
         {
+          "version": "2.2.0",
+          "buildVersion": "5580",
+          "date": "2026-11-01",
+          "localizedDescription": "设置选项调整\r\n支持切换`番剧`/`剧集` PV\r\npgc/pugv api 迁移至 ogv\r\n`我的订阅`详情默认倒序显示\r\n相关推荐过滤屏蔽黑名单 #3276\r\n用户主页支持显示粉丝勋章 #3202\r\n键盘方向键支持长按持续回退 #3379\r\n同步空降助手新片段类型`惊吓` #3368\r\n桌面端进度条支持鼠标悬停预览视频画面\r\n增加桌面端视频底栏时长字体大小 #3372\r\n增加滚轮调节音量开关 #3340 by @Hdy08\r\n侧边栏支持隐藏文字 #3343 by @illumiat\r\n支持`,`/`.`键逐档切换倍速 #3294 by @lzblack\r\n重构 Linux 内嵌 WebView #3423 by @moluopro\r\nLinux 构建依赖调整 #3277 by @Tobiichi-Origuchi\r\nLinux 支持多媒体控制 #3355 by @Tobiichi-Origuchi\r\nLinux 支持检测网络类型 #3164 #3374 by @Tobiichi-Origuchi\r\n`我的`页面支持显示`观看记录`、`稍后再看`、`我的订阅`\r\n支持自定义`buvid` #3253 #3349 co-by @My-Responsitories\r\n缓存面板支持选择音质，修复音质选取问题 #3309 co-by @azkbzxf\r\n支持导出/导入所有数据到压缩包 #3248 by @nlsdt #3313 by @My-Responsitories\r\n其他调整 #3349 by @My-Responsitories\r\n构建脚本不再改写用户的全局 Git 配置 #3360 by @AmCh-Q\r\n\r\n适配更多专栏类型\r\n支持显示 UP 专栏文集 #3316\r\n\r\n首页直播置顶分类标签 #3363\r\n增加全屏 SC 是否显示/不透明度/缩放设置\r\n直播与视频的缓冲区大小区分开 #3308 by @azkbzxf\r\n\r\n支持查看折叠评论 #2391\r\n动态/视频评论 Scheme 改为跳转源页面后定位评论\r\n增加过滤复制视频介绍评论选项 #3312 by @My-Responsitories\r\n增加屏蔽`@`类型评论选项 #2808 #3241 co-by @My-Responsitories\r\n\r\n修复 bug\r\n修复 #3323 #3385\r\n修复专栏跳转评论后内容倒序显示 #3289\r\n修复长用户名被截断 #3359 by @ChenPeeer\r\n修复安卓启动时状态栏颜色 #3332 by @EX3124\r\n修复 Wayland 硬解黑屏 #3261 by @FeiLiuEM\r\n修复 pgc/pugv 分享链接 #3291 by @Starfallan\r\n修复安卓 17 投屏 #2897 #3365 by @TG-Twilight\r\n修复迁移托盘依赖 Linux 菜单显示问题 #3263 by @FeiLiuEM\r\n修复保留 Akamai 原始播放链接及签名参数 #3380 by @aierlma\r\n修复 OriginOS(vivo) 音量条无法二次按下自动收起 #3373 by @SekiBankiYa\n\nUpstream release: https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.2.0",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0/PiliPlus_ios_2.2.0%2B5580.ipa",
+          "size": 24921912,
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.1.6",
           "buildVersion": "5472",
           "date": "2026-10-10",
@@ -559,6 +568,15 @@
       "bundleIdentifier": "com.minh-ton.Reynard",
       "versions": [
         {
+          "version": "0.19.0",
+          "buildVersion": "24a99b7",
+          "date": "2026-10-26",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.18.0...0.19.0\r\n\r\n### New Features\r\n- Added support for game controllers.\r\n- You can now import and export your bookmarks, history, and add-ons:\r\n  - Bookmarks can be imported from and exported to other browsers as an HTML file.\r\n  - History can be imported from Safari or Google Takeout (Chrome), and exported in Safari's format.\r\n  - Add-ons can be imported from and exported to another Reynard install.\r\n\r\n### Bug Fixes & Improvements\r\n- Webpages that fail to load now show an error page explaining what went wrong, with options to try again or go back.\r\n- You can now right-click a Favorite site on the homepage using a pointer device to reveal its context menu.\r\n- Fixed an issue where pull to refresh would occasionally get stuck, with the refresh spinner appearing indefinitely.\r\n- Fixed numerous UI issues.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [158.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_1_RELEASE) (released Oct 20, 2026).\n\nUpstream release: https://github.com/minh-ton/reynard-browser/releases/tag/0.19.0",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+          "size": 111139976,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "0.18.0",
           "buildVersion": "860bb6f",
           "date": "2026-10-18",
@@ -683,6 +701,15 @@
     {
       "bundleIdentifier": "com.kodjodevf.mangayomi",
       "versions": [
+        {
+          "version": "0.9.95",
+          "buildVersion": "128",
+          "date": "2026-11-01",
+          "localizedDescription": "## Why 0.9.95 and not 1.0.0?\r\n\r\nThis release has almost everything planned for 1.0.0: a new design, a rebuilt player and hundreds of fixes. But so much has changed that it needs testing on more devices and libraries than we can cover ourselves.\r\n\r\nSo 0.9.95 is the last step before 1.0.0. The goal now is stability, not new features. If something breaks or looks wrong, please [open an issue](https://github.com/kodjodevf/mangayomi/issues) with your device and app version. 1.0.0 will come once this version has proven solid.\r\n\r\n## Highlights\r\n\r\n* **Shiori, a new design for the whole app:** every screen has been redrawn on one design system, with new navigation, transitions and an ergonomic pass throughout (#1077).\r\n* **A rebuilt video player:** new controls on phone, desktop and TV, plus video filters, audio delay, and volume, brightness and fit kept between episodes.\r\n* **A tracker with no account:** follow your status, progress, score and dates on the device alone (#1121).\r\n* **Work that keeps going on Android:** downloads, library updates, restores and syncs continue in the background, under one notification (#1092).\r\n* **More control over downloads and updates:** download ahead while reading, download new chapters automatically, and choose which series a library update skips (#1091).\r\n\r\n**Before updating:** this is a large release that also touches how your library is stored, so make a backup first (More > Backup and restore).\r\n\r\n## Reader\r\n\r\n* Zoom with Ctrl (⌘ on macOS) and the mouse wheel; the wheel alone moves a zoomed page.\r\n* With \"Navigate to pan\" on, tall pages are read row by row before the page turns.\r\n* Split tall images into slices in webtoon mode.\r\n* Choose which chapters next and previous skip: read, filtered or duplicate.\r\n* Rebind the reader's keyboard shortcuts.\r\n* Separate icons for crop borders on and off.\r\n* Pages and zooms follow your finger more closely, and the webtoon strip glides after a fling.\r\n* Decoded images now have a memory limit, so long chapters no longer keep growing in memory.\r\n* Fixed: lost decoded pages for the next chapter when closing the reader, and chapter list rows with a scanlator failing to lay out.\r\n\r\n## Video player\r\n\r\n* New controls on phone, desktop and TV, with episodes reachable from the top bar and lock and skip under the timeline on mobile.\r\n* **Video filters:** brightness, contrast, saturation, gamma and hue, kept for the next episodes. Gamma is hidden where the video output cannot apply it.\r\n* **Audio delay:** from -5 to +5 seconds.\r\n* Remember volume and brightness between episodes, and keep the fit from one episode to the next.\r\n* New \"Turn subtitles on\" switch, so episodes can start without subtitles.\r\n* \"Use my subtitle style\" now really gives the default style back when turned off.\r\n* VAAPI and VDPAU hardware decoding on Linux.\r\n* Rebind the player's keyboard shortcuts.\r\n* Fixed: a freeze in the player's event handling, crashes when chapter marks change, previous and next buttons on mobile, and controls under the camera cutout in landscape.\r\n\r\n## Library and browsing\r\n\r\n* Swipe sideways to switch between Manga, Anime and Novels, in the library and in Browse.\r\n* Select everything between two entries, in the library and in chapter lists.\r\n* Skip completed series, series with unread chapters or series not started in library updates. The categories' \"Skip updates\" option now takes effect too.\r\n* The Updates badge counts what was found since you last opened Updates, and clears when you visit.\r\n* Hidden media types are respected everywhere: Browse, Updates, History and the tracker library.\r\n* Browse remembers the Sources or Extensions page picked for each media.\r\n* Recommendation cards use the available space and no longer show HTML tags.\r\n* Fixed: opening Updates and History with orphan chapters, and an empty random entry.\r\n\r\n## Downloads\r\n\r\n* Download the next 2, 3, 5 or 10 u\n\n…",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.95/Mangayomi-v0.9.95-ios.ipa",
+          "size": 115450399,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.9.9",
           "buildVersion": "127",
@@ -1012,6 +1039,15 @@
       "bundleIdentifier": "opensource.pikapika",
       "versions": [
         {
+          "version": "1.8.23",
+          "buildVersion": "47",
+          "date": "2026-10-29",
+          "localizedDescription": "<!--\r\n[用爱发电](https://github.com/niuhuan/crops/releases/tag/v.0.0.1)\r\n-->\r\n发电功能已经恢复\r\n\r\nThe author will not publish this software’s source code or build artifacts through any channel other than GitHub. This project is provided solely for programming communication and learning purposes. Please comply with all applicable laws and regulations in your jurisdiction. The author assumes no responsibility for any actions or consequences arising from your downloading, using, or distributing the source code or build artifacts of this project; any resulting legal disputes or liabilities shall be borne solely by you.\r\n\r\n作者不会在 GitHub 以外的任何渠道发布本软件的源代码或构建产物。本项目仅用于编程交流与学习之目的。请您遵守所在地适用的法律法规。对于您下载、使用、传播本项目源代码或构建产物所引发的任何行为与后果，作者不承担任何责任；由此产生的任何法律纠纷或责任均由您自行承担。\r\n\r\n作者は、GitHub 以外のいかなる手段でも本ソフトウェアのソースコードまたはビルド成果物を公開しません。本プロジェクトは、プログラミングに関する交流および学習目的のみに提供されます。居住地域で適用される法令を遵守してください。本プロジェクトのソースコードまたはビルド成果物のダウンロード、使用、配布等に起因する一切の行為および結果について、作者は責任を負いません。これにより生じたいかなる法的紛争または責任も、利用者ご自身が負担するものとします。\r\n\r\n작성자는 GitHub 이외의 어떠한 경로로도 본 소프트웨어의 소스 코드 및 빌드 산출물을 배포하지 않습니다. 본 프로젝트는 프로그래밍 교류 및 학습 목적에 한하여 제공됩니다. 거주 지역의 관련 법률 및 규정을 준수하시기 바랍니다. 본 프로젝트의 소스 코드 또는 빌드 산출물을 다운로드, 사용, 배포하는 행위로 인해 발생하는 모든 행위 및 결과에 대해 작성자는 어떠한 책임도 지지 않으며, 이로 인해 발생하는 모든 법적 분쟁 및 책임은 전적으로 사용자 본인에게 있습니다.\r\n\r\nEl autor no publicará el código fuente ni los artefactos de compilación de este software por ningún canal distinto de GitHub. Este proyecto se proporciona únicamente con fines de comunicación y aprendizaje de programación. Cumpla las leyes y normativas aplicables en su jurisdicción. El autor no asume responsabilidad alguna por las acciones o consecuencias derivadas de la descarga, uso o distribución del código fuente o de los artefactos de compilación de este proyecto; cualquier disputa o responsabilidad legal resultante será asumida exclusivamente por usted.\r\n\r\nL’auteur ne publiera pas le code source ni les artefacts de compilation de ce logiciel par un autre canal que GitHub. Ce projet est fourni uniquement à des fins d’échange et d’apprentissage en programmation. Veuillez respecter les lois et réglementations applicables dans votre juridiction. L’auteur décline toute responsabilité quant aux actes ou conséquences résultant du téléchargement, de l’utilisation ou de la diffusion du code source ou des artefacts de compilation de ce projet ; tout litige ou toute responsabilité juridique en découlant sera entièrement à votre charge.\r\n\r\n-----\r\n\r\n77554422=\r\n\r\nPlease enter the above content into the application. / 请输入以上内容进入应用程序 / アプリケーションに入るには、上記の内容を入力してください。 / 애플리케이션에 들어가려면 위 내용을 입력하세요. / Para entrar en la aplicación, introduzca el contenido anterior. / Pour accéder à l’application, veuillez saisir le contenu ci-dessus.\r\n\r\n-----\r\n\r\nSupport & contribute / 支持和发电 / 支援と応援 / 지원 및 후원 / Apoyar y contribuir / Soutenir et contribuer\r\n\r\n- Method 1：[Buy a cup of cappuccino / 买一杯卡布奇诺 / カプチーノを一杯買う / 카푸치노 한 잔 사기 / Comprar una taza de capuchino / Acheter une tasse de cappuccino](https://github.com/niuhuan/crops/releases/tag/v.0.0.1)\r\n- Method 2：PATREON\r\n  - SETP 1:  [Join / 入会 / 入会する / 가입 / Unirse / Adhérer](https://www.patreon.com/checkout/niuhuan?rid=9701586)\r\n  - STEP 2: [Link / 绑定 / 連携 / 연결 / Vincular / Lier](https://6ib4vimleel7ljjuf3o6ovevmi0hsekc.lambda-url.us-west-2.on.aws/gen_login_url?scheme=pikapika)\r\n  - TIPS: (There may be up to a 1-hour delay. If it shows that you haven't contributed, refresh after a while. After that, it will renew automatically.) If the app cannot be opened automatically, please find the entry at the very bottom of the lightning icon section inside the app. If you have any issues, please open an issue in time. / （可能有最多1小时延迟，如果显示没有发电过一会儿要刷一下，之后就是自动续期了）。若无法自动打开APP，请到软件内闪电图标最下方寻找入口。有问题及时提出issue。 / （最大で1時間程度の遅延が発生する場合があります。発電していないと表示される場合は、しばらくしてから更新してください。その後は自動更新になります。）自動的にアプリを開けない場合は、アプリ内の稲妻アイコンの一番下にある入口をご確認ください。問題があれば、早めに Issue を作成してください。 / (최대 1시간 정도 지연될 수 있습니다. 발전한 적이 없다고 표시되면 잠시 후 새로고침해 보세요.\n\n…",
+          "downloadURL": "https://github.com/ComicSparks/pikapika/releases/download/v1.8.23/pikapika-v1.8.23-ios_nosign-flutter_3.13.9.ipa",
+          "size": 17919180,
+          "minOSVersion": "12.0"
+        },
+        {
           "version": "1.8.21",
           "buildVersion": "45",
           "date": "2026-07-20",
@@ -1099,6 +1135,15 @@
       "bundleIdentifier": "sh.celia.novella",
       "versions": [
         {
+          "version": "2.7.0",
+          "buildVersion": "476",
+          "date": "2026-10-31",
+          "localizedDescription": "## Highlights\r\n\r\nWrite community posts in Markdown with a preview. Keep your preferred community sort order between launches. Change your username with a rename card.\r\n\r\n## Fixes\r\n\r\n- Reader title bar now hides with the controls (#213).\r\n- Status bar hides correctly after toast messages (#213).\r\n- Chapter title and page number remain visible with controls hidden (#213).\r\n- Fixed title bar animation on the Duo inner display (#213).\r\n- Fixed layout shifts when opening pages on Duo (#214).\r\n- Post italics, underlines and strikethroughs render correctly (#214).\r\n- Chinese text now displays in italics (#214).\r\n- Post images stay within their table cells (#217).\r\n- Large page titles collapse correctly when scrolling (#216).\r\n\r\n## Other changes\r\n\r\n- Added human verification when requesting registration and password-reset codes (#215).\r\n- Updated shop item usage to follow server availability and results (#215).\r\n- Updated CELIA branding.\r\n\r\n<details>\r\n<summary>Full changelog</summary>\r\n\r\nhttps://github.com/celia-sh/Novella/compare/v2.6.0...v2.7.0\r\n\r\n</details>\r\n\n\nUpstream release: https://github.com/celia-sh/Novella/releases/tag/v2.7.0",
+          "downloadURL": "https://github.com/celia-sh/Novella/releases/download/v2.7.0/Novella-2.7.0-release.ipa",
+          "size": 29786138,
+          "minOSVersion": "16.4"
+        },
+        {
           "version": "2.6.0",
           "buildVersion": "449",
           "date": "2026-10-20",
@@ -1133,6 +1178,15 @@
     {
       "bundleIdentifier": "com.readaware.app",
       "versions": [
+        {
+          "version": "0.6.9",
+          "buildVersion": "0.6.9",
+          "date": "2026-10-28",
+          "localizedDescription": "## New\n\n- **Reader header and footer.** Show the chapter, book title, reading progress, page numbers, time and battery level in thin strips above and below the page. Arrange them in Settings → Customize: drag each item to the left, center or right of the header or footer, reorder items that share a spot, or hide them. On Android and iOS, where the reader hides the system status bar, they are on by default so you can still see the time and battery; on desktop they are off until you turn them on.\n- **Advanced typography.** A new \"Advanced typography\" switch lets you set exact values for font size, line height, paragraph spacing, margins and weight instead of preset steps. First-line indent can now follow the book, be turned off, or be set yourself.\n- **Searchable font picker.** Curated, plugin, imported and installed fonts now share one list with section headings, and you can search it by name.\n- **Xiaomi MiMo read-aloud voices.** Xiaomi MiMo is now available as a text-to-speech provider for reading aloud.\n\n## Improved\n\n- **More text per page on phones.** The safe area around the notch and home indicator now counts toward the page margins in paginated mode, so iPhones no longer lose about three lines of text per page.\n- **Calmer appearance controls.** Typography choices come first and sliders after, and the page color picker is a dropdown once plugin themes make the list long.\n- **No font flash between chapters.** A new chapter appears only after its font has loaded, instead of briefly showing a fallback font.\n\n## Fixed\n\n- **Exports on iOS.** Exporting files on iPhone and iPad no longer produces empty files or fails.\n- **iOS 16.0–16.3 and older Safari.** The app and EPUB loading now work on these versions. The minimum supported iOS version is now 16.0.\n- **Inline glyph images in CJK books.** Small images used as substitute characters stay on their line of text instead of breaking the sentence apart.\n- **Menus stay on screen.** Popovers such as the selection menu no longer run past the bottom of the screen, for example in landscape.\n- **Desktop startup.** The app no longer fails to start when file-association registration fails, or when opening a book whose file name is not valid Unicode.\n- **Reader appearance popover layout.** Option groups no longer grow extra space after relayout in the desktop app.\n- **Mobile settings.** The \"launch at startup\" setting no longer appears on Android and iOS, where it is not supported.\n\n**Full Changelog**: https://github.com/ahpxex/read-aware/compare/v0.6.8...v0.6.9\n\n\nUpstream release: https://github.com/ahpxex/read-aware/releases/tag/v0.6.9",
+          "downloadURL": "https://github.com/ahpxex/read-aware/releases/download/v0.6.9/ReadAware-v0.6.9-ios-arm64.ipa",
+          "size": 15903064,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.6.8",
           "buildVersion": "0.6.8",
@@ -1256,6 +1310,15 @@
     {
       "bundleIdentifier": "com.lichaofan.dshmobile",
       "versions": [
+        {
+          "version": "1.7.13",
+          "buildVersion": "34",
+          "date": "2026-10-30",
+          "localizedDescription": "## 功能更新\r\n\r\n- 双端新增“全部会话”视图，支持跨工作区浏览、按工作区分组及展开更多会话；新建会话时提示先选择具体工作区。\r\n- 双端新增 Agent 等待回答或选择时的后台通知，切入后台后补发仍待处理的回答与审批提醒；修复 Android 部分任务结束通知遗漏的问题。\r\n- 优化会话列表加载与滚动流畅度；iOS 在列表滚动时暂停背景动画，停止滚动后平滑续播。\r\n- 调整双端模型与推理等级菜单的分组和间距；iOS 保留原生菜单展开效果，将推理等级置于顶部，并固定选项顺序。\r\n- 修复 iOS 点击上下文用量圆环后显示为底部面板，以及浮层箭头与面板背景颜色不一致的问题。\r\n\r\n## 必需插件\r\n\r\n- 必须安装 [dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) `v0.11.1` 或更高版本。\r\n- 安装或升级后，需要完整退出并重新启动 `dsh web`。\r\n\r\n```bash\r\ndsh plugin --profile web add dsh-plugin-mobile-gateway@latest\r\n```\r\n\n\nUpstream release: https://github.com/Clarklevis1995/dsh-mobile/releases/tag/v1.7.13",
+          "downloadURL": "https://github.com/Clarklevis1995/dsh-mobile/releases/download/v1.7.13/DshMobile-ios-v1.7.13-unsigned.ipa",
+          "size": 20262656,
+          "minOSVersion": "16.1"
+        },
         {
           "version": "1.7.10",
           "buildVersion": "31",
